@@ -1,0 +1,85 @@
+ @import "tailwindcss";
+  
+ .Premium1{
+   background-image: url("https://images.ctfassets.net/rz1oowkt5gyp/7lpUSxVqNRggpqzCNcnfo1/04cf35d0a0ef60e18c6575eb9a0374e4/inbox-slider.png?w=1440&fm=webp");
+}
+.boxshadow{
+   box-shadow: 0px 0px 8px black;
+   
+}
+
+.Premium2{
+   background-image: url("https://images.ctfassets.net/rz1oowkt5gyp/w3lwhF5VUl2zPrQhoo6zi/87076ead73cad0973c907db1960bacfc/board-slider.png?w=540");
+}
+.Premium3{
+   background-image: url("https://images.ctfassets.net/rz1oowkt5gyp/2CRH0gvg9NCw6tdLBHIBQy/eee39403406317dc1fc841bf3f685245/planner-slider.png?w=1440&fm=webp");
+
+}
+
+ 
+ .img1{
+    background-image: url("https://images.ctfassets.net/rz1oowkt5gyp/7lpUSxVqNRggpqzCNcnfo1/04cf35d0a0ef60e18c6575eb9a0374e4/inbox-slider.png?w=1440&fm=webp");
+ }
+ .boxshadow{
+    box-shadow: 0px 0px 8px black;
+    
+ }
+
+ .img2{
+    background-image: url("https://images.ctfassets.net/rz1oowkt5gyp/w3lwhF5VUl2zPrQhoo6zi/87076ead73cad0973c907db1960bacfc/board-slider.png?w=540");
+ }
+ .img3{
+    background-image: url("https://images.ctfassets.net/rz1oowkt5gyp/2CRH0gvg9NCw6tdLBHIBQy/eee39403406317dc1fc841bf3f685245/planner-slider.png?w=1440&fm=webp");
+ }
+ .custom-bg {
+   background:
+     url('//images.ctfassets.net/rz1oowkt5gyp/7x92BS4HFqr74MNmDGtli0/5b537d8…/hero-left.svg') left top / auto 100% no-repeat,
+     url('//images.ctfassets.net/rz1oowkt5gyp/11wxtWNB47BwK1EsLUqEdE/466c5a1…/hero-right.svg') right top / auto 100% no-repeat,
+     linear-gradient(0deg, rgb(0, 184, 217), rgb(0, 101, 255));
+   background-repeat: no-repeat;
+   background-position: left top, right top;
+   background-size: auto 100%, auto 100%;
+ }
+  /* Marketing */
+  .Marketing1{
+   background-image: url("https://images.ctfassets.net/rz1oowkt5gyp/lEuf39hz1fnp9PQ4SAvLz/59a1f4957b7ff8df36b30b29b53ed63c/Marketing-EditorialCalendar.jpg?w=1500&fm=webp");
+}
+.boxshadow{
+   box-shadow: 0px 0px 8px black;
+   
+}
+
+.Marketing2{
+   background-image: url("https://images.ctfassets.net/rz1oowkt5gyp/2GmcLyn1OeEZjvO1e2yDkH/4e7cb0cad6467301ba9e11fb1114934c/Marketing-GoToMarketStrategy.jpg?w=1500&fm=webp");
+}
+.Marketing3{
+   background-image: url("https://images.ctfassets.net/rz1oowkt5gyp/3d8SqJ7ARIF22BxIXSl7ve/d8dc831b686e9b14be168d985e6ae33d/Marketing-EmailWorkflow.jpg?w=1500&fm=webp");
+}
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+@keyframes drawerUp {
+  0% { transform: translateY(140px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideUp {
+  0% { transform: translate(-50%, 40px); opacity: 0; }
+  100% { transform: translate(-50%, 0); opacity: 1; }
+}
+
+.animate-drawerUp { animation: drawerUp 0.35s ease-out; }
+.animate-fadeIn { animation: fadeIn 0.45s ease-out; }
+.animate-slideUp { animation: slideUp 0.35s ease-out; }
