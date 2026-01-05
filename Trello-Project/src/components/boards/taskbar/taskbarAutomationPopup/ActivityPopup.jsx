@@ -9,7 +9,7 @@ export default function ActivityPopup({ onClose }) {
     <div className="fixed inset-0 z-[60] bg-black/50 flex items-center justify-center">
       <div className="w-[900px] max-h-[90vh] bg-[#1f2a2e] text-white rounded-lg shadow-xl relative flex flex-col">
 
-        {/* Header */}
+        
         <div className="flex items-center justify-between px-6 py-4 border-b border-white/10">
           <h2 className="text-sm font-semibold ml-90 text-gray-300">
             Automation activity
@@ -22,12 +22,12 @@ export default function ActivityPopup({ onClose }) {
           </button>
         </div>
 
-        {/* Title */}
+      
         <div className="px-6 pt-4">
           <h1 className="text-3xl font-semibold">Automation</h1>
         </div>
 
-        {/* Tabs */}
+        
         <div className="flex mt-4 px-6 border-b border-white/10">
           <button
             onClick={() => setActiveTab("workspace")}
@@ -52,7 +52,6 @@ export default function ActivityPopup({ onClose }) {
           </button>
         </div>
 
-        {/* Content */}
         <div className="p-6 overflow-y-auto">
           {activeTab === "workspace" && (
             <div className="bg-[#202b30] rounded-lg p-5 space-y-4">

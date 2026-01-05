@@ -168,6 +168,7 @@ import WSettings from "../components/boards/myBoardNavBar/WSettings";
 import AutomationPopup from "../components/boards/taskbar/taskbarAutomationPopup/AutomationPopup";
 import AutomationRules from "../components/boards/taskbar/taskbarAutomationPopup/AutomationRules";
 import ActivityPopup from "../components/boards/taskbar/taskbarAutomationPopup/ActivityPopup";
+
 let routes = createBrowserRouter([
   {
     path: "/",
@@ -901,7 +902,9 @@ let routes = createBrowserRouter([
          element: <AutomationRules />
          },
       { path: "activity",
-       element: <ActivityPopup /> },  
+       element: <ActivityPopup /> 
+      },  
+     
     ],
   },
   
