@@ -167,6 +167,9 @@ import WSettings from "../components/boards/myBoardNavBar/WSettings";
 
 import AutomationPopup from "../components/boards/taskbar/taskbarAutomationPopup/AutomationPopup";
 import AutomationRules from "../components/boards/taskbar/taskbarAutomationPopup/AutomationRules";
+import CardButtons from "../components/boards/taskbar/taskbarAutomationPopup/CardButtons";
+import BoardButtons from "../components/boards/taskbar/taskbarAutomationPopup/BoardButtons";
+import ViewApps from "../components/boards/taskbar/taskbarAutomationPopup/ViewApps";
 let routes = createBrowserRouter([
   {
     path: "/",
@@ -899,6 +902,18 @@ let routes = createBrowserRouter([
       {
         path: "/b/sFTGFeIY/my-trello-board/*",
         element: <AutomationRules />,
+      },
+      {
+        path: "/b/sFTGFeIY/my-trello-board/cardbuttons",
+        element: <CardButtons />,
+      },
+      {
+        path: "/b/sFTGFeIY/my-trello-board/boardbuttons",
+        element: <BoardButtons />,
+      },
+      {
+        path: "/b/sFTGFeIY/my-trello-board/viewapps",
+        element: <ViewApps />,
       },
     ],
   },

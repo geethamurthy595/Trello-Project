@@ -72,27 +72,27 @@ export default function AutomationPopup({ onClose }) {
                   Custom buttons
                 </div>
                 <SidebarItem>
-                  <div className="flex items-center gap-3">
+                  <Link to="/b/sFTGFeIY/my-trello-board/cardbuttons" className="flex items-center gap-3">
                     <TiCreditCard className="w-5 h-5" />
                     <span>Card buttons</span>
-                  </div>
+                  </Link>
                 </SidebarItem>
 
                 <SidebarItem>
-                  <div className="flex items-center gap-3">
+                  <Link to="/b/sFTGFeIY/my-trello-board/boardbuttons" className="flex items-center gap-3">
                     <FaTrello className="w-4 h-4" />
                     <span>Board buttons</span>
-                  </div>
+                  </Link>
                 </SidebarItem>
 
                 <div className="mt-4 text-medium font-medium px-2">
                   App automations
                 </div>
                 <SidebarItem>
-                  <div className="flex items-center gap-3">
+                  <Link to="/b/sFTGFeIY/my-trello-board/viewapps" className="flex items-center gap-3">
                     <IoSettingsOutline className="w-4 h-4" />
                     <span>View apps</span>
-                  </div>
+                  </Link>
                 </SidebarItem>
                 <div className="mt-4 text-medium font-medium px-2 ">More</div>
 
