@@ -902,6 +902,10 @@ let routes = createBrowserRouter([
       },
     ],
   },
+  {
+        path: "/buttomNavbar",
+        element: <ButtomNavbar/>,
+      },
 ]);
 
 export default routes;
