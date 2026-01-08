@@ -126,9 +126,9 @@ export default function AutomationPopup({ onClose }) {
             </nav>
           </aside>
 
-          <div className="flex-1 relative">
-            <Outlet />
-          </div>
+          <div className="flex-1 w-full relative">
+  <Outlet />
+</div>
         </div>
 
         {showActivity && (
