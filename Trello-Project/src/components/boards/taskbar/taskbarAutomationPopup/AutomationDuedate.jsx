@@ -6,7 +6,7 @@ import { RxCross2 } from "react-icons/rx";
 
 const AutomationDuedate = () => {
   return (
-    <div className="min-h-screen bg-[#15202B] text-white">
+    <div className="min-h-screen  bg-[#15202B] text-white">
       {/* HEADER */}
       <nav className="border-b border-gray-600 px-6 py-4 flex justify-between">
         <h1 className="text-2xl font-semibold flex gap-2">
@@ -15,7 +15,7 @@ const AutomationDuedate = () => {
 
         <div className="flex gap-4 items-center">
           <button className="flex gap-1 underline text-gray-300">
-            <IoIosVideocam /> Watch video overview
+            <IoIosVideocam className="size-6" /> Watch video overview
           </button>
 
           <button className="bg-blue-600 px-4 py-2 rounded">
@@ -31,25 +31,28 @@ const AutomationDuedate = () => {
       </nav>
 
       {/* BODY */}
-      <div className="py-12 px-6 flex justify-center">
+      <div className="py-12 px- flex justify-center">
         <div className="max-w-6xl grid md:grid-cols-2 gap-10">
           <div>
-            <h2 className="text-3xl font-bold mb-6">
-              Make things happen automatically based on a card's due date.
+           <div className="h-20">
+           <h2 className="text-2xl font-bold mb-6">
+             Make things happen automatically based <br /> on card's due date.
             </h2>
-
+           </div>
+            <h1>Examples:</h1> <br />
             <ul className="space-y-5 text-lg text-gray-200">
               <li className="flex gap-2">
                 <FaRobot size={25} />
-                The moment a card is due, move it to the top of "To Do"
+                The moment a card is due, move it to the top of list  <br /> "To Do" and join the card.
               </li>
               <li className="flex gap-2">
                 <FaRobot size={25} />
-                2 hours before due, add red label
+                2 hours before a card is due, add red label to the card.
               </li>
               <li className="flex gap-2">
                 <FaRobot size={25} />
-                3 days after due, comment on board
+                3 days after a card is due,post comment "@board This <br />
+           card was due 3 days ago.
               </li>
             </ul>
 
@@ -60,8 +63,8 @@ const AutomationDuedate = () => {
 
           <div className="flex flex-col items-center">
             <iframe
-              width="640"
-              height="360"
+              width="450"
+              height="300"
               src="https://www.youtube.com/embed/WSMfGoXrL9I"
               title="YouTube video"
               allowFullScreen
