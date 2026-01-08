@@ -60,10 +60,10 @@ export default function AutomationPopup({ onClose }) {
               </SidebarItem>
 
               <SidebarItem>
-                <div className="flex items-center gap-3">
+                <Link to="/b/sFTGFeIY/my-trello-board/duedate" className="flex items-center gap-3">
                   <FaRegCalendarAlt className="w-4 h-4" />
                   Due date
-                </div>
+                </Link>
               </SidebarItem>
 
               <div className="mt-4 font-medium px-2">Custom buttons</div>
