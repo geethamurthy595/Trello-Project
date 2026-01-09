@@ -7,7 +7,7 @@ const TrelloBoardsHome = () => {
   return (
     <>
       <MyBoardNavBar />
-      <MyTrelloBoard />
+      {/* <MyTrelloBoard /> */}
       <ButtomNavbar />
     </>
   );
