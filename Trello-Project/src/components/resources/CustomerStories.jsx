@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Customer from "../../assets/Customer.png";
 import NavBar from "../NavBar";
 import UniversalFooter from "../UniversalFooter";
@@ -57,7 +58,7 @@ const CustomerStories = () => {
                   </a>
                 </div>
                 {/* Instinct  */}
-                <div className="box h-[365px] w-[383px]  pt-[80px] pb-[16px] pr-[16px] pl-[16px] ">
+                <Link to="/customers/instinct-dog-training" className="box h-[365px] w-[383px]  pt-[80px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">
                     <div className="inner-box h-[268px] w-[348px]  font-normal">
                       <div className="background-image h-[99px] w-[348px] ">
@@ -78,9 +79,9 @@ const CustomerStories = () => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </Link>
                 {/* Scan 2 CD */}
-                <div className="box h-[365px] w-[383px]  pt-[80px] pb-[16px] pr-[16px] pl-[16px] ">
+                <Link to="/customers/scan2cad" className="box h-[365px] w-[383px]  pt-[80px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">
                     <div className="inner-box h-[268px] w-[348px]  font-normal">
                       <div className="background-image h-[99px] w-[348px] ">
@@ -100,12 +101,12 @@ const CustomerStories = () => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </Link>
               </div>
               {/* 2nd Row  */}
               <div className="first-row  h-[300px] w-[1140px] flex ">
                 {/* Desk Plants */}
-                <div className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
+                <Link to="/customers/desk-plants" className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">
                     <div className="inner-box h-[268px] w-[348px]  font-normal">
                       <div className="background-image h-[99px] w-[348px] ">
@@ -126,9 +127,9 @@ const CustomerStories = () => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </Link>
                 {/* SwagUp */}
-                <div className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
+                <Link to="/customers/swagup" className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">
                     <div className="inner-box h-[268px] w-[348px]  font-normal">
                       <div className="background-image h-[99px] w-[348px] ">
@@ -149,7 +150,7 @@ const CustomerStories = () => {
                       </div>
                     </div>
                   </a>
-                </div>{" "}
+                </Link>{" "}
                 {/* UNICEF */}
                 <div className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">
