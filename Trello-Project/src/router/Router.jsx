@@ -4,7 +4,7 @@ import Login from "../components/Login";
 import SignUp from "../components/SignUp";
 import Pricing from "../components/pricing/Pricing";
 import Inbox from "../components/features/Inbox";
-import PowerUps from "../components/features/PowerUps";
+import PowerUps from "../components/features/powerups/PowerUps";
 import Planner from "../components/features/Planner";
 import CustomerStories from "../components/resources/CustomerStories";
 import ProductManagement from "../components/solutions/productManagement/ProductManagement";
@@ -169,6 +169,8 @@ import AutomationPopup from "../components/boards/taskbar/taskbarAutomationPopup
 import AutomationRules from "../components/boards/taskbar/taskbarAutomationPopup/AutomationRules";
 import ActivityPopup from "../components/boards/taskbar/taskbarAutomationPopup/ActivityPopup";
 import AutomationDuedate from "../components/boards/taskbar/taskbarAutomationPopup/AutomationDuedate";
+import Featured from "../components/features/powerups/Featured";
+import ViewAll from "../components/features/powerups/ViewAll";
 
 
 let routes = createBrowserRouter([
@@ -229,6 +231,16 @@ let routes = createBrowserRouter([
   {
     path: "/power-ups",
     element: <PowerUps />,
+    children: [
+      {
+        path:"",
+        element:<Featured/>,
+      },
+      {
+        path:"all",
+        element:<ViewAll/>
+      }
+    ]
   },
   {
     path: "/teams/product",
