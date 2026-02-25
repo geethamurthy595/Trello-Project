@@ -222,7 +222,7 @@ const CustomerStories = () => {
                   </a>
                 </div>{" "}
                 {/* McCorvey  */}
-                <div className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
+                <Link to="/customers/mccorvey-sheet-metal" className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">
                     <div className="inner-box h-[268px] w-[348px]  font-normal">
                       <div className="background-image h-[99px] w-[348px] ">
@@ -243,7 +243,7 @@ const CustomerStories = () => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </Link>
               </div>
             </div>
           </section>

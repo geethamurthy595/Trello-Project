@@ -169,6 +169,7 @@ import AutomationPopup from "../components/boards/taskbar/taskbarAutomationPopup
 import AutomationRules from "../components/boards/taskbar/taskbarAutomationPopup/AutomationRules";
 import ActivityPopup from "../components/boards/taskbar/taskbarAutomationPopup/ActivityPopup";
 import AutomationDuedate from "../components/boards/taskbar/taskbarAutomationPopup/AutomationDuedate";
+import McCorvey from "../components/resources/help/customerstoriesInternalCards/McCorvey";
 
 
 let routes = createBrowserRouter([
@@ -917,6 +918,10 @@ let routes = createBrowserRouter([
         path: "/buttomNavbar",
         element: <ButtomNavbar/>,
       },
+      {
+        path:"/customers/mccorvey-sheet-metal",
+        element:<McCorvey/>
+      }
 ]);
 
 export default routes;
