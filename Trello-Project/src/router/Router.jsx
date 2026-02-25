@@ -173,6 +173,7 @@ import Featured from "../components/features/powerups/Featured";
 import ViewAll from "../components/features/powerups/ViewAll";
 import PowerUpAutomation from "../components/features/powerups/PowerUpAutomation";
 import McCorvey from "../components/resources/help/customerstoriesInternalCards/McCorvey";
+import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
 
 
 let routes = createBrowserRouter([
@@ -244,7 +245,7 @@ let routes = createBrowserRouter([
       },
       {
         path:"analytics-reporting",
-        element:<AnalyticsAndReporting />
+        element:<AnalyticsAndReportingPowerups />
       },
       {
         path:"category/automation",
