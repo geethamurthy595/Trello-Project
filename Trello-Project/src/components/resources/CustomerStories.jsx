@@ -200,6 +200,7 @@ const CustomerStories = () => {
                   </a>
                 </div>
                 {/* DoSomething.org  */}
+                <Link to="/components/resources/help/customerstoriesInternalCards/dosomething">
                 <div className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">
                     <div className="inner-box h-[268px] w-[348px]  font-normal">
@@ -220,7 +221,7 @@ const CustomerStories = () => {
                       </div>
                     </div>
                   </a>
-                </div>{" "}
+                </div>{" "}</Link>
                 {/* McCorvey  */}
                 <div className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">

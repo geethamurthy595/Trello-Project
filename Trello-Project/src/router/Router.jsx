@@ -171,6 +171,8 @@ import ActivityPopup from "../components/boards/taskbar/taskbarAutomationPopup/A
 import AutomationDuedate from "../components/boards/taskbar/taskbarAutomationPopup/AutomationDuedate";
 import Featured from "../components/features/powerups/Featured";
 import ViewAll from "../components/features/powerups/ViewAll";
+import DoSomething from "../components/resources/help/customerstoriesInternalCards/DoSomething";
+
 
 
 let routes = createBrowserRouter([
@@ -929,6 +931,10 @@ let routes = createBrowserRouter([
         path: "/buttomNavbar",
         element: <ButtomNavbar/>,
       },
+      {
+        path:"/components/resources/help/customerstoriesInternalCards/dosomething",
+        element:<DoSomething/>
+      }
 ]);
 
 export default routes;
