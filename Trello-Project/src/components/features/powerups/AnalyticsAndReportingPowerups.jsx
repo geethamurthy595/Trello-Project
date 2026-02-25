@@ -419,7 +419,10 @@ const AnalyticsAndReportingPowerups = () => {
       <div className="text-black grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {data.map(({ id, image, title, desc, value }) => {
           return (
-           <div className="flex flex-col justify-between w-full h-56 bg-[#ebecf0] rounded-lg px-2 border border-gray-200 hover:shadow-md hover:-translate-y-1 transition-all duration-200">
+            <div
+              className="flex flex-col justify-evenly w-full h-70 cursor-pointer  bg-[#ebecf0] rounded-lg px-2 border border-gray-200 hover:shadow-md hover:-translate-y-1 transition-all duration-200 "
+              key={id}
+            >
               <div className="flex items-start gap-2">
                 {image && (
                   <img
