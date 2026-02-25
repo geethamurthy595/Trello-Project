@@ -171,6 +171,7 @@ import ActivityPopup from "../components/boards/taskbar/taskbarAutomationPopup/A
 import AutomationDuedate from "../components/boards/taskbar/taskbarAutomationPopup/AutomationDuedate";
 import Featured from "../components/features/powerups/Featured";
 import ViewAll from "../components/features/powerups/ViewAll";
+import Madebytrello from "../components/features/powerups/Madebytrello";
 
 
 let routes = createBrowserRouter([
@@ -239,6 +240,10 @@ let routes = createBrowserRouter([
       {
         path:"all",
         element:<ViewAll/>
+      },
+      {
+        path:"made-by-trello",
+        element:<Madebytrello/>
       }
     ]
   },
