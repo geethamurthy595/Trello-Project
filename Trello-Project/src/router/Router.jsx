@@ -169,6 +169,8 @@ import AutomationPopup from "../components/boards/taskbar/taskbarAutomationPopup
 import AutomationRules from "../components/boards/taskbar/taskbarAutomationPopup/AutomationRules";
 import ActivityPopup from "../components/boards/taskbar/taskbarAutomationPopup/ActivityPopup";
 import AutomationDuedate from "../components/boards/taskbar/taskbarAutomationPopup/AutomationDuedate";
+import DoSomething from "../components/resources/help/customerstoriesInternalCards/DoSomething";
+
 
 
 let routes = createBrowserRouter([
@@ -917,6 +919,10 @@ let routes = createBrowserRouter([
         path: "/buttomNavbar",
         element: <ButtomNavbar/>,
       },
+      {
+        path:"/components/resources/help/customerstoriesInternalCards/dosomething",
+        element:<DoSomething/>
+      }
 ]);
 
 export default routes;
