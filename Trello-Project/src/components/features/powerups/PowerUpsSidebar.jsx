@@ -64,14 +64,17 @@ const PowerUpsSidebar = () => {
         <p className="w-full font-semibold  m-0 p-0">Made by Trello</p>
       </div>
       <Link
-        to="analytics-reporting"
-        className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer"
-      >
-        <p className="w-full font-semibold  m-0 p-0">Analytics & reporting</p>
+          to="analytics-reporting"
+          className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer"
+        >
+          <p className="w-full font-semibold  m-0 p-0">Analytics & reporting</p>
+        
       </Link>
-      <div className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
-        <p className="w-full font-semibold  m-0 p-0">Automation</p>
-      </div>
+      <Link to="category/automation">
+        <div className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
+          <p className="w-full font-semibold  m-0 p-0">Automation</p>
+        </div>
+      </Link>
       <div className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
         <p className="w-full font-semibold  m-0 p-0">Board utilities</p>
       </div>

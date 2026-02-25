@@ -171,6 +171,8 @@ import ActivityPopup from "../components/boards/taskbar/taskbarAutomationPopup/A
 import AutomationDuedate from "../components/boards/taskbar/taskbarAutomationPopup/AutomationDuedate";
 import Featured from "../components/features/powerups/Featured";
 import ViewAll from "../components/features/powerups/ViewAll";
+import PowerUpAutomation from "../components/features/powerups/PowerUpAutomation";
+import McCorvey from "../components/resources/help/customerstoriesInternalCards/McCorvey";
 import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
 
 
@@ -234,7 +236,7 @@ let routes = createBrowserRouter([
     element: <PowerUps />,
     children: [
       {
-        path:"",
+        index:true,
         element:<Featured/>,
       },
       {
@@ -243,8 +245,12 @@ let routes = createBrowserRouter([
       },
       {
         path:"analytics-reporting",
-        element:<AnalyticsAndReportingPowerups/>
+        element:<AnalyticsAndReportingPowerups />
       },
+      {
+        path:"category/automation",
+        element:<PowerUpAutomation />
+      }
     ]
   },
   {
@@ -934,6 +940,10 @@ let routes = createBrowserRouter([
         path: "/buttomNavbar",
         element: <ButtomNavbar/>,
       },
+      {
+        path:"/customers/mccorvey-sheet-metal",
+        element:<McCorvey/>
+      }
 ]);
 
 export default routes;
