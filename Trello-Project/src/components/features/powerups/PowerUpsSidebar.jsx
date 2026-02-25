@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const PowerUpsSidebar = () => {
   return (
     <nav className=" w-[550px]  py-4 pr-5 pl-[150px] ">
-      <div className="relative mb-2">
+      <div className="relative mb-2 ">
         <input
           className="border border-gray-100 rounded py-2 px-4 w-full"
           type="text"
@@ -22,7 +22,10 @@ const PowerUpsSidebar = () => {
         <p className="w-full font-semibold  m-0 p-0">Featured</p>
       </div>
 
-      <Link to="all" className="flex items-center gap-1 p-1 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
+      <Link
+        to="all"
+        className="flex items-center gap-1 p-1 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer"
+      >
         <svg
           width="24"
           height="24"
@@ -60,9 +63,12 @@ const PowerUpsSidebar = () => {
         </svg>
         <p className="w-full font-semibold  m-0 p-0">Made by Trello</p>
       </div>
-      <div className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
+      <Link
+        to="analytics-reporting"
+        className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer"
+      >
         <p className="w-full font-semibold  m-0 p-0">Analytics & reporting</p>
-      </div>
+      </Link>
       <div className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
         <p className="w-full font-semibold  m-0 p-0">Automation</p>
       </div>
