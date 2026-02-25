@@ -172,6 +172,7 @@ import AutomationDuedate from "../components/boards/taskbar/taskbarAutomationPop
 import Featured from "../components/features/powerups/Featured";
 import ViewAll from "../components/features/powerups/ViewAll";
 import PowerUpAutomation from "../components/features/powerups/PowerUpAutomation";
+import McCorvey from "../components/resources/help/customerstoriesInternalCards/McCorvey";
 
 
 let routes = createBrowserRouter([
@@ -938,6 +939,10 @@ let routes = createBrowserRouter([
         path: "/buttomNavbar",
         element: <ButtomNavbar/>,
       },
+      {
+        path:"/customers/mccorvey-sheet-metal",
+        element:<McCorvey/>
+      }
 ]);
 
 export default routes;
