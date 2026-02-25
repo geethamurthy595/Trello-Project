@@ -174,6 +174,7 @@ import ViewAll from "../components/features/powerups/ViewAll";
 import DoSomething from "../components/resources/help/customerstoriesInternalCards/DoSomething";
 
 import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
+import PowerUpAutomation from "../components/features/powerups/PowerUpAutomation";
 
 
 let routes = createBrowserRouter([
@@ -242,11 +243,7 @@ let routes = createBrowserRouter([
       {
         path:"all",
         element:<ViewAll/>
-      },
-      {
-        path:"analytics-reporting",
-        element:<AnalyticsAndReportingPowerups/>
-      },
+      }
     ]
   },
   {
@@ -936,10 +933,6 @@ let routes = createBrowserRouter([
         path: "/buttomNavbar",
         element: <ButtomNavbar/>,
       },
-      {
-        path:"/components/resources/help/customerstoriesInternalCards/dosomething",
-        element:<DoSomething/>
-      }
 ]);
 
 export default routes;
