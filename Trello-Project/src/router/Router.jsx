@@ -171,9 +171,6 @@ import ActivityPopup from "../components/boards/taskbar/taskbarAutomationPopup/A
 import AutomationDuedate from "../components/boards/taskbar/taskbarAutomationPopup/AutomationDuedate";
 import Featured from "../components/features/powerups/Featured";
 import ViewAll from "../components/features/powerups/ViewAll";
-import DoSomething from "../components/resources/help/customerstoriesInternalCards/DoSomething";
-
-import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
 import PowerUpAutomation from "../components/features/powerups/PowerUpAutomation";
 
 
@@ -237,12 +234,20 @@ let routes = createBrowserRouter([
     element: <PowerUps />,
     children: [
       {
-        path:"",
+        index:true,
         element:<Featured/>,
       },
       {
         path:"all",
         element:<ViewAll/>
+      },
+      {
+        path:"analytics-reporting",
+        element:<AnalyticsAndReporting />
+      },
+      {
+        path:"category/automation",
+        element:<PowerUpAutomation />
       }
     ]
   },
