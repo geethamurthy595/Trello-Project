@@ -18,7 +18,7 @@ const PowerUps = () => {
                 <Outlet/>
             </section>
             <footer className='bg-[#1F1F21]  items-center w-full h-[100%] text-[#BFC1C4]'>
-                <div className='flex gap-4 items-center justify-center pt-30'>
+                <div className='flex gap-4 items-center justify-center pt-50'>
                     <p>Templates</p>
                     <p>Pricing</p>
                     <p>AppsJobs</p>

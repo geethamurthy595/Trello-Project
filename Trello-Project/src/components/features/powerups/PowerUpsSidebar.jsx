@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const PowerUpsSidebar = () => {
   return (
-    <nav className=" w-[550px]  py-4 pr-5 pl-[150px] ">
+    <nav className=" w-[550px]  py-4 pr-5 pl-[150px] border-white">
       <div className="relative mb-2">
         <input
           className="border border-gray-100 rounded py-2 px-4 w-full"
@@ -63,9 +63,9 @@ const PowerUpsSidebar = () => {
       <div className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
         <p className="w-full font-semibold  m-0 p-0">Analytics & reporting</p>
       </div>
-      <div className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
+      <Link to="automation" className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
         <p className="w-full font-semibold  m-0 p-0">Automation</p>
-      </div>
+      </Link>
       <div className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
         <p className="w-full font-semibold  m-0 p-0">Board utilities</p>
       </div>
