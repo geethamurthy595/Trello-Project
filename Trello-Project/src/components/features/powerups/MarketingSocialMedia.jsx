@@ -189,7 +189,7 @@ let handleAdd = (cardObj)=>{
       {
         marketingSocialMediaData.map((cardObject, ind)=>{
           return(
-            <div key={cardObject.Id} className={marketingSocialMediaCSS.cardCSS}>
+            <div key={cardObject.id} className={marketingSocialMediaCSS.cardCSS}>
               <div className={marketingSocialMediaCSS.innerDivCSS}>
                {cardObject?.logo && ( <img src={cardObject?.logo} alt="logo" className="w-10" />)}
                 <h3 className='font-bold'>{cardObject?.title}</h3>
