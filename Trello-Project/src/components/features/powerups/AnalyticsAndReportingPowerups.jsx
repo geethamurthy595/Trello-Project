@@ -44,7 +44,7 @@ import faviconios from "../../../assets/analytics_and_reporting/favicon-ios.png"
 import csv from "../../../assets/analytics_and_reporting/csv.png";
 import whoviewed from "../../../assets/analytics_and_reporting/whoviewed.png";
 import wistiaflags from "../../../assets/analytics_and_reporting/wistia-flags.png";
-import planway from "../../../assets/analytics_and_reporting/planway.svg";
+
 
 let data = [
   {
@@ -397,14 +397,7 @@ let data = [
     desc: "The Wistia Trello Power-Up makes it easier and more delightful to manage and measure your videos.",
     value: "5,000+",
   },
-  {
-    id: 52,
-    image: planway,
-    title: "Gantt-style Project Roadmap by Planyway",
-    desc: "Multi-project planning, resource management, portfolio roadmap, dependencies, milestones and deadlines.",
-    value: "10,000+",
-  },
- 
+
 ];
 
 const AnalyticsAndReportingPowerups = () => {
@@ -414,13 +407,12 @@ const AnalyticsAndReportingPowerups = () => {
         Analytics & reporting
       </h2>
 
-      {/* Card Wrapper */}
-      <div className="flex flex-wrap justify-center gap-4">
+      <div className="flex flex-wrap justify-center gap-3">
         {data.map(({ id, image, title, desc, value }) => {
           return (
             <div
               key={id}
-              className=" w-full sm:w-[280px] lg:w-[300px] flex flex-col justify-between p-5 rounded-md
+              className="w-70 h-50 flex flex-col justify-evenly p-2 rounded-md 
               bg-[hsla(0,0%,100%,0.05)]
               hover:bg-[hsla(0,0%,100%,0.10)]
               border border-[hsla(0,0%,100%,0.08)]
@@ -428,42 +420,30 @@ const AnalyticsAndReportingPowerups = () => {
               transition-all duration-300"
             >
               <div>
-                <div className="flex items-center gap-3 mb-3">
+                <div className="flex items-center gap-1.5 mb-2">
                   {image && (
                     <img
                       src={image}
                       alt={title}
-                      className="h-12 w-12 object-contain"
+                      className="h-9 w-9 object-contain"
                     />
                   )}
-                  <h1 className="font-bold text-base text-white">
-                    {title}
-                  </h1>
+                  <h1 className="font-bold text-md text-white ">{title}</h1>
                 </div>
+                  <button className="bg-blue-800  hover:bg-blue-700 text-white px-5 py-1 text-center text-sm rounded-md">
+                    Add
+                  </button>
 
-                <p className="text-sm text-gray-300 leading-relaxed">
-                  {desc}
-                </p>
+                <p className="text-sm text-gray-300 leading-relaxed">{desc.slice(0,100)}{desc.length>100?"...":""}</p>
               </div>
 
-        
               <div className="flex justify-between items-center mt-5">
                 {value && (
-                  <div className="flex items-center gap-2">
-                    <img
-                      src={reporting}
-                      alt="reporting"
-                      className="h-4 w-4"
-                    />
-                    <p className="text-xs text-gray-300">
-                      {value}
-                    </p>
+                  <div className="flex items-center gap-2 ">
+                    <img src={reporting} alt="reporting" className="h-4 w-4" />
+                    <p className="text-xs text-gray-300">{value}</p>
                   </div>
                 )}
-
-                <button className="bg-blue-800 hover:bg-blue-700 text-white px-4 py-1.5 text-sm rounded-md">
-                  Add
-                </button>
               </div>
             </div>
           );
@@ -473,4 +453,4 @@ const AnalyticsAndReportingPowerups = () => {
   );
 };
 
-export default AnalyticsAndReportingPowerups
+export default AnalyticsAndReportingPowerups;
