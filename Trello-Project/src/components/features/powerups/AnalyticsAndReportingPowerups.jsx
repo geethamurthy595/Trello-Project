@@ -404,44 +404,66 @@ let data = [
     desc: "Multi-project planning, resource management, portfolio roadmap, dependencies, milestones and deadlines.",
     value: "10,000+",
   },
-  {
-    id: 53,
-    title: "Flash",
-    desc: "Monitor the lead times of your cards in one click.",
-    value: "1,000+",
-  },
+ 
 ];
 
 const AnalyticsAndReportingPowerups = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6  ">
-      <h2 className="font-bold text-xl pl-5 pb-6">Analytics & reporting</h2>
-      <div className="text-black grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+    <div className="px-3 w-full min-h-screen overflow-y-auto hide-scrollbar">
+      <h2 className="font-bold text-xl pl-5 pb-6 text-white">
+        Analytics & reporting
+      </h2>
+
+      {/* Card Wrapper */}
+      <div className="flex flex-wrap justify-center gap-4">
         {data.map(({ id, image, title, desc, value }) => {
           return (
             <div
-              className="flex flex-col justify-evenly w-full h-70 cursor-pointer  bg-[#ebecf0] rounded-lg px-2 border border-gray-200 hover:shadow-md hover:-translate-y-1 transition-all duration-200 "
               key={id}
+              className=" w-full sm:w-[280px] lg:w-[300px] flex flex-col justify-between p-5 rounded-md
+              bg-[hsla(0,0%,100%,0.05)]
+              hover:bg-[hsla(0,0%,100%,0.10)]
+              border border-[hsla(0,0%,100%,0.08)]
+              shadow-lg hover:shadow-2xl
+              transition-all duration-300"
             >
-              <div className="flex items-start gap-2">
-                {image && (
-                  <img
-                    src={image}
-                    alt={title}
-                    className="h-8 w-8 sm:h-10 sm:w-10 object-contain"
-                  />
-                )}
-                <h1 className="font-bold text-sm sm:text-base break-words">
-                  {title}
-                </h1>
+              <div>
+                <div className="flex items-center gap-3 mb-3">
+                  {image && (
+                    <img
+                      src={image}
+                      alt={title}
+                      className="h-12 w-12 object-contain"
+                    />
+                  )}
+                  <h1 className="font-bold text-base text-white">
+                    {title}
+                  </h1>
+                </div>
+
+                <p className="text-sm text-gray-300 leading-relaxed">
+                  {desc}
+                </p>
               </div>
-              <button className="self-start bg-blue-800 cursor-pointer  text-white px-3 py-1 text-xs sm:text-sm rounded-md">
-                Add
-              </button>
-              <p>{desc}</p>
-              <div className="flex gap-4">
-                <img src={reporting} alt="" />
-                <p>{value}</p>
+
+        
+              <div className="flex justify-between items-center mt-5">
+                {value && (
+                  <div className="flex items-center gap-2">
+                    <img
+                      src={reporting}
+                      alt="reporting"
+                      className="h-4 w-4"
+                    />
+                    <p className="text-xs text-gray-300">
+                      {value}
+                    </p>
+                  </div>
+                )}
+
+                <button className="bg-blue-800 hover:bg-blue-700 text-white px-4 py-1.5 text-sm rounded-md">
+                  Add
+                </button>
               </div>
             </div>
           );
@@ -451,4 +473,4 @@ const AnalyticsAndReportingPowerups = () => {
   );
 };
 
-export default AnalyticsAndReportingPowerups;
+export default AnalyticsAndReportingPowerups
