@@ -81,6 +81,7 @@ const powerUps = [
     desc: "Attach branches, commits, issues, & pull requests to cards, and see the status of pull requests on your boards.",
     installs: "250,000+",
     img: github,
+    whiteIcon: true,
   },
   {
     id: 9,
@@ -163,84 +164,84 @@ const powerUps = [
   },
 ];
 
+// images import same as yours...
+
 const Madebytrello = () => {
   return (
-    
-    <div className="px-6 py-6 bg-[#F4F5F7] h-[90vh] overflow-scroll hide-scrollbar">
+    <div className="px-6 py-6 bg-black h-[90vh] overflow-scroll hide-scrollbar">
 
-  <h2 className="text-xl font-semibold mb-6 text-gray-800">
-    Made by Trello
-  </h2>
+      <h2 className="text-xl font-semibold mb-6 text-white">
+        Made by Trello
+      </h2>
 
-  {/* LIMIT WIDTH HERE */}
-  <div className="w-[900px]">
+      <div className="w-[900px]">
 
-    <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-4">
 
-      {powerUps.map((item) => (
-        
-         <div
-    key={item.id}
-    className="bg-[#EBECF0] rounded-lg p-3 border border-gray-300 hover:shadow-md transition"
-  >
-    {/* Image + Title Row */}
-    <div className="flex items-center gap-3 mb-2">
-      <img
-        src={item.img}
-        alt={item.name}
-        className="w-10 h-10 rounded"
-      />
+          {powerUps.map((item) => (
 
-      <h3 className="font-semibold text-gray-800">
-        {item.name}
-      </h3>
-    </div>
+            <div
+              key={item.id}
+              className="bg-[#1E1E1E] rounded-lg p-3 border border-gray-700 
+              hover:bg-[#2A2A2A] hover:shadow-xl transition-all duration-300 cursor-pointer"
+            >
+              
+              {/* Image + Title */}
+              <div className="flex items-center gap-3 mb-2">
+                <img
+                  src={item.img}
+                  alt={item.name}
+                  //className="w-10 h-10 rounded"
+                  className={`w-10 h-10 rounded ${item.name === "GitHub" ? "invert" : ""}`}
+                />
 
-          <button className="bg-blue-600 text-white text-sm px-3 py-1 rounded mb-3">
-            Add
-          </button>
+                <h3 className="font-semibold text-white">
+                  {item.name}
+                </h3>
+              </div>
 
-          <p className="text-gray-700 text-sm mb-4">
-            {item.desc}
-          </p>
+              <button className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-3 py-1 rounded mb-3">
+                Add
+              </button>
 
-          {/* <div className="text-sm text-gray-600">
-            📋 {item.installs}
-          </div> */}
-          <div className="flex items-center gap-2 text-sm text-gray-600">
-  
-  <svg
-    width="18"
-    height="18"
-    viewBox="0 0 24 24"
-    xmlns="http://www.w3.org/2000/svg"
-    className="text-gray-600"
-  >
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M3 5C3 3.89543 3.89543 3 5 3H19C20.1046 3 21 3.89543 21 5V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5ZM5 6C5 5.44772 5.44772 5 6 5H10C10.5523 5 11 5.44772 11 6V16C11 16.5523 10.5523 17 10 17H6C5.44772 17 5 16.5523 5 16V6ZM14 5C13.4477 5 13 5.44772 13 6V12C13 12.5523 13.4477 13 14 13H18C18.5523 13 19 12.5523 19 12V6C19 5.44772 18.5523 5 18 5H14Z"
-      fill="currentColor"
-    />
-  </svg>
+              <p className="text-gray-300 text-sm mb-4">
+                {item.desc}
+              </p>
 
-  {item.installs}
+              <div className="flex items-center gap-2 text-sm text-gray-400">
 
-  {/* ❤️ Staff Pick */}
-  {item.staffPick && (
-    <div className="flex items-center gap-1 text-red-500 font-medium">
-      <FaHeart />
-      <span className="text-gray-600">Staff pick</span>
-    </div>
-  )}
-</div>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="text-gray-400"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M3 5C3 3.89543 3.89543 3 5 3H19C20.1046 3 21 3.89543 21 5V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5ZM5 6C5 5.44772 5.44772 5 6 5H10C10.5523 5 11 5.44772 11 6V16C11 16.5523 10.5523 17 10 17H6C5.44772 17 5 16.5523 5 16V6ZM14 5C13.4477 5 13 5.44772 13 6V12C13 12.5523 13.4477 13 14 13H18C18.5523 13 19 12.5523 19 12V6C19 5.44772 18.5523 5 18 5H14Z"
+                    fill="currentColor"
+                  />
+                </svg>
+
+                {item.installs}
+
+                {item.staffPick && (
+                  <div className="flex items-center gap-1 text-red-500 font-medium">
+                    <FaHeart />
+                    <span className="text-gray-300">Staff pick</span>
+                  </div>
+                )}
+              </div>
+
+            </div>
+          ))}
+
         </div>
-      ))}
 
+      </div>
     </div>
-
-  </div>
-</div>
   );
 };
 
