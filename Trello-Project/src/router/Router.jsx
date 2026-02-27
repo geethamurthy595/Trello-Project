@@ -174,6 +174,7 @@ import ViewAll from "../components/features/powerups/ViewAll";
 import PowerUpAutomation from "../components/features/powerups/PowerUpAutomation";
 import McCorvey from "../components/resources/help/customerstoriesInternalCards/McCorvey";
 import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
+import Burgerfi from "../components/resources/help/customerstoriesInternalCards/Burgerfi";
 
 
 let routes = createBrowserRouter([
@@ -943,6 +944,10 @@ let routes = createBrowserRouter([
       {
         path:"/customers/mccorvey-sheet-metal",
         element:<McCorvey/>
+      },
+      {
+        path:"/customers/Burgerfi",
+        element:<Burgerfi/>
       }
 ]);
 
