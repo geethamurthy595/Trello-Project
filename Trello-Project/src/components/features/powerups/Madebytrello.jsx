@@ -164,8 +164,6 @@ const powerUps = [
   },
 ];
 
-// images import same as yours...
-
 const Madebytrello = () => {
   return (
     <div className="px-6 py-6 bg-black h-[90vh] overflow-scroll hide-scrollbar">
