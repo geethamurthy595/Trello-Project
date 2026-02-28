@@ -178,7 +178,7 @@ const CustomerStories = () => {
               {/* 3rd Row  */}
               <div className="first-row  h-[300px] w-[1140px] flex ">
                 {/* BurgerFi */}
-                <Link to="./resources/help/customerstoriesinternalCards/Burgerfi.jsx">
+                <Link to="/customers/Burgerfi">
                 <div className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">
                     <div className="inner-box h-[268px] w-[348px]  font-normal">

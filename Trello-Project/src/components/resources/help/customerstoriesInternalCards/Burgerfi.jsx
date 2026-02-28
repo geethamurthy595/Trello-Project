@@ -1,17 +1,17 @@
 import React from 'react'
 import NavBar from '../../../NavBar';
-import Burgerfiaward from '../assets/Burgerfiaward.png';
-import Burgerficompany from '../assets/Burgerficompany.png';
-import Burgerfiglobal from '../assets/Burgerfiglobal.png';
-import Burgerfispeaker from '../assets/Burgerfispeaker.png';
+import Burgerfiaward from '../../../../assets/Burgerfiaward.png';
+import Burgerficompany from '../../../../assets/Burgerficompany.png';
+import Burgerfiglobal from '../../../../assets/Burgerfiglobal.png';
+import Burgerfispeaker from '../../../../assets/Burgerfispeaker.png';
 import UniversalFooter from '../../../UniversalFooter';
-import Burgerficoinbase from '../assets/Burgerficoinbase.svg';
-import BurgerfiGrandHyatt from '../assets/BurgerfiGrandHyatt.svg';
-import BurgerfijohnDeere from '../assets/BurgerfijohnDeere.svg';
-import BurgerfiVisa from '../assets/BurgerfiVisa.svg';
-import BurgerfiZoom from '../assets/BurgerfiZoom.png.webp';
-import Burgerfiimage from '../assets/Burgerfiimage.png';
-import BurgerFi from '../assets/BurgerFi.png';
+import Burgerficoinbase from '../../../../assets/Burgerficoinbase.svg';
+import BurgerfiGrandHyatt from '../../../../assets/BurgerfiGrandHyatt.svg';
+import BurgerfijohnDeere from '../../../../assets/BurgerfijohnDeere.svg';
+import BurgerfiVisa from '../../../../assets/BurgerfiVisa.svg';
+import BurgerfiZoom from '../../../../assets/BurgerfiZoom.png.webp';
+import Burgerfiimage from '../../../../assets/Burgerfiimage.png';
+import BurgerFi from "../../../../assets/BurgerFi.jpeg";
 
 const Burgerfi = () => {
  
@@ -81,12 +81,12 @@ const Burgerfi = () => {
 
       {/* Paras */}
 
-      <section>
+      <section className='text-8xl'>
 
         <div className="mx-[25%] tracking-wider text-left font-sans text-[140] text-lg font-charlie font-normal leading-[1.95]">
           <p>What’s it like to be part of the fastest growing food 
             service segment in the world? “Busy,” says Steven Buckley, 
-            Chief Operating Officer at <a href="">BurgerFi</a>. 
+            Chief Operating Officer at <a className='underline text-blue-600' href="https://www.burgerfi.com">BurgerFi</a>. 
             The fast casual burger 
             franchise has opened nearly 100 restaurants across the US in 
             the past five years: “We are constantly challenged to be ‘best 
@@ -299,7 +299,7 @@ const Burgerfi = () => {
              <p className="mx-[25%] pt-4 tracking-wider text-20 text-left font-sans text-[140] text-lg font-charlie font-normal leading-[1.95]">
               <b>Board build tips:</b>  Email-to-board is a helpful tool for the feedback process: any customer 
               comments that come in via email are forwarded directly to the board. 
-              The <a href="https://chromewebstore.google.com/detail/trello-card-counter/hepiaakjhimoagmpalbfoojemcnlnagn?hl=en"> CardCounter for Trello extension </a> 
+              The <a className='underline text-blue-600' href="https://chromewebstore.google.com/detail/trello-card-counter/hepiaakjhimoagmpalbfoojemcnlnagn?hl=en"> CardCounter for Trello extension </a> 
               helps keep tabs on the number of submissions at each stage of response.</p>
 
 
@@ -370,7 +370,7 @@ const Burgerfi = () => {
                   <img className=' col-span-2 w-full max-w-xl h-20 md:h-24  mx-auto' src={Burgerficoinbase} alt="no image found" />
                   <img className=' col-span-2 w-full max-w-xl h-20 md:h-24  mx-auto' src={BurgerfijohnDeere} alt="no image found" />
                   <img className=' col-span-2 w-full max-w-xl h-20 md:h-24  mx-auto' src={BurgerfiGrandHyatt} alt="no image found" />
-                  <img className=' col-span-3 w-full md:w-1/2 h-20 md:h-24  mx-auto ' src={BurgerfiVisa} alt="no image found" />
+                  <img className=' col-span-3 w-full md:w-1/1.5 h-20 md:h-24  mx-auto ' src={BurgerfiVisa} alt="no image found" />
                   <img className=' col-span-3 w-full md:w-1/2 h-20 md:h-24  mx-auto' src={BurgerfiZoom} alt="no image found" />
                 </div>
               </div>

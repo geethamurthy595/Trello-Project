@@ -174,7 +174,7 @@ import ViewAll from "../components/features/powerups/ViewAll";
 import PowerUpAutomation from "../components/features/powerups/PowerUpAutomation";
 import McCorvey from "../components/resources/help/customerstoriesInternalCards/McCorvey";
 import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
-import Burgerfi from "../components/resources/help/customerstoriesInternalCards/Burgerfi";
+import Burgerfi from "../components/resources/help/customerstoriesInternalCards/Burgerfi.jsx";
 
 
 let routes = createBrowserRouter([
@@ -946,9 +946,10 @@ let routes = createBrowserRouter([
         element:<McCorvey/>
       },
       {
-        path:"/customers/Burgerfi",
+        path:"/customers/burgerfi",
         element:<Burgerfi/>
-      }
+      },
+     
 ]);
 
 export default routes;
