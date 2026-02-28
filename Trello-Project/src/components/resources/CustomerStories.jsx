@@ -178,6 +178,7 @@ const CustomerStories = () => {
               {/* 3rd Row  */}
               <div className="first-row  h-[300px] w-[1140px] flex ">
                 {/* BurgerFi */}
+                <Link to="/customers/Burgerfi">
                 <div className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">
                     <div className="inner-box h-[268px] w-[348px]  font-normal">
@@ -199,6 +200,7 @@ const CustomerStories = () => {
                     </div>
                   </a>
                 </div>
+                </Link>
                 {/* DoSomething.org  */}
                 <Link to="/components/resources/help/customerstoriesInternalCards/dosomething">
                 <div className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
