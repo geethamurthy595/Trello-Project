@@ -176,6 +176,7 @@ import McCorvey from "../components/resources/help/customerstoriesInternalCards/
 import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
 import MarketingSocialMedia from "../components/features/powerups/MarketingSocialMedia";
 import SalesSupport from "../components/features/powerups/SalesSupport";
+import Burgerfi from "../components/resources/help/customerstoriesInternalCards/Burgerfi.jsx";
 
 
 let routes = createBrowserRouter([
@@ -953,7 +954,12 @@ let routes = createBrowserRouter([
       {
         path:"/customers/mccorvey-sheet-metal",
         element:<McCorvey/>
-      }
+      },
+      {
+        path:"/customers/burgerfi",
+        element:<Burgerfi/>
+      },
+     
 ]);
 
 export default routes;
