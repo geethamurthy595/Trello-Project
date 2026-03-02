@@ -175,6 +175,8 @@ import PowerUpAutomation from "../components/features/powerups/PowerUpAutomation
 import McCorvey from "../components/resources/help/customerstoriesInternalCards/McCorvey";
 import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
 import MarketingSocialMedia from "../components/features/powerups/MarketingSocialMedia";
+import ItAndProjectManagement from "../components/features/powerups/ItAndProjectManagement";
+
 import SalesSupport from "../components/features/powerups/SalesSupport";
 import Burgerfi from "../components/resources/help/customerstoriesInternalCards/Burgerfi.jsx";
 
@@ -257,10 +259,6 @@ let routes = createBrowserRouter([
       {
         path:"category/marketing-social-media",
         element:<MarketingSocialMedia />
-      },
-      {
-        path:"category/sales-support",
-        element:<SalesSupport />
       }
     ]
   },
