@@ -178,6 +178,7 @@ import MarketingSocialMedia from "../components/features/powerups/MarketingSocia
 import ItAndProjectManagement from "../components/features/powerups/ItAndProjectManagement";
 
 
+
 let routes = createBrowserRouter([
   {
     path: "/",
@@ -259,7 +260,7 @@ let routes = createBrowserRouter([
       },
       {
         path:"category/it-project-management",
-        element:<ItAndProjectManagement/>
+       element:<ItAndProjectManagement/>
       }
     ]
   },
