@@ -259,6 +259,10 @@ let routes = createBrowserRouter([
       {
         path:"category/marketing-social-media",
         element:<MarketingSocialMedia />
+      },
+      {
+        path:"category/it-project-management",
+        element:<ItAndProjectManagement />
       }
     ]
   },
