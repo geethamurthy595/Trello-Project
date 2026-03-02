@@ -19,7 +19,7 @@ const NonProfits = () => {
       category: "File management",
       description:
         "Search Google Drive right from Trello and attach relevant files directly to their corresponding tasks for richer context.",
-      image: Google_Drive, 
+      image: Google_Drive, // replace with your actual Google Drive image import
       bg: "bg-[#2684ff]",
       path: "/power-ups/55a5d916446f517774210006",
     },
@@ -28,9 +28,9 @@ const NonProfits = () => {
       category: "Communication & collaboration",
       description:
         "Receive Trello notifications or view and interact with Trello boards within Microsoft Teams.",
-      image: Microsoft_Office, 
+      image: Microsoft_Office, // replace with your actual Teams image import
       bg: "bg-[#8777d9]",
-      path: "/power-ups", 
+      path: "/power-ups", // update if you have the real path
     },
     {
       title: "Slack",
@@ -44,7 +44,7 @@ const NonProfits = () => {
       title: "Gmail",
       category: "Communication & collaboration",
       description: "Send your emails to Trello for easy task management.",
-      image: Gmail, 
+      image: Gmail, // replace with your actual Gmail image
       bg: "bg-[#403294]",
       path: "/power-ups/6052d16c340ed23e9da083ed",
     },
@@ -53,17 +53,17 @@ const NonProfits = () => {
       category: "Sales and support",
       description:
         "The Salesforce Power-Up for Trello brings information about opportunities, leads, contacts, and cases to your Trello cards.",
-      image: Salesforce, 
+      image: Salesforce, // add your Salesforce image
       bg: "bg-[#4c9aff]",
-      path: "/power-ups", 
+      path: "/power-ups", // update if needed
     },
     {
       title: "Xero",
       category: "IT & project management",
       description: "Track your time on projects from a Trello card.",
-      image: Xero, 
+      image: Xero, // add your Xero image
       bg: "bg-[#57d9a3]",
-      path: "/power-ups", 
+      path: "/power-ups", // update if needed
     },
   ];
 
@@ -181,7 +181,7 @@ const NonProfits = () => {
           </div>
         </div>
       </section>
-     
+      {/* ---------- FEATURES SECTION ---------- */}
       <section className=" text-center  p-10 border-red-500">
         <div className=" text-center flex flex-col items-center ">
           <h1 className="text-4xl w-220 font-semibold ">
@@ -316,7 +316,7 @@ const NonProfits = () => {
         ))}
       </div>{" "}
       <br /> <br />
-    
+      {/* ---------- TEMPLATE / USE CASE SECTION ---------- */}
       <section className="templates py-16">
         <div className="container text-center max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold text-left mb-4">
