@@ -788,6 +788,10 @@ let routes = createBrowserRouter([
     element: <Meetings />,
   },
   {
+    path:"/use-cases/nonprofits",
+    element:<NonProfits/>
+  },
+  {
     path: "/templates/remote-work/remote-team-meetings-lYdxML7x",
     element: <RemoteTeam />,
   },
