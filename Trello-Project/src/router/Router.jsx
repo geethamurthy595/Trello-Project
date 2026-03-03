@@ -176,6 +176,7 @@ import McCorvey from "../components/resources/help/customerstoriesInternalCards/
 import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
 import MarketingSocialMedia from "../components/features/powerups/MarketingSocialMedia";
 import ItAndProjectManagement from "../components/features/powerups/ItAndProjectManagement";
+import Madebytrello from "../components/features/powerups/Madebytrello";
 
 import SalesSupport from "../components/features/powerups/SalesSupport";
 import Burgerfi from "../components/resources/help/customerstoriesInternalCards/Burgerfi.jsx";
@@ -263,6 +264,10 @@ let routes = createBrowserRouter([
       {
         path:"category/it-project-management",
         element:<ItAndProjectManagement />
+      },
+      {
+        path:"made-by-trello",
+        element:<Madebytrello/>
       }
     ]
   },
