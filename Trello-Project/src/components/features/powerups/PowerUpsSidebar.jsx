@@ -62,7 +62,7 @@ const PowerUpsSidebar = () => {
           ></path>
         </svg>
         <p className="w-full font-semibold  m-0 p-0">Made by Trello</p>
-      </div>
+      </Link>
       <Link
           to="analytics-reporting"
           className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer"
