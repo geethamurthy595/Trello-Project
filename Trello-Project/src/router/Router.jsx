@@ -248,6 +248,26 @@ let routes = createBrowserRouter([
       {
         path:"all",
         element:<ViewAll/>
+      },
+      {
+        path:"analytics-reporting",
+        element:<AnalyticsAndReportingPowerups />
+      },
+      {
+        path:"category/automation",
+        element:<PowerUpAutomation />
+      },
+      {
+        path:"category/marketing-social-media",
+        element:<MarketingSocialMedia />
+      },
+      {
+        path:"category/it-project-management",
+        element:<ItAndProjectManagement />
+      },
+      {
+        path:"made-by-trello",
+        element:<Madebytrello/>
       }
     ]
   },
@@ -951,10 +971,6 @@ let routes = createBrowserRouter([
         element:<Burgerfi/>
       },
      
-      {
-        path: "/resources/customerstories/unicef",
-        element: <Unicef/>,
-      },
       {
         path: "/resources/customerstories/unicef",
         element: <Unicef/>,
