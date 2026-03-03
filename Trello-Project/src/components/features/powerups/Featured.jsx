@@ -151,7 +151,7 @@ const Featured = () => {
                     </div>
                     <div>
                         <h1 className='text-2xl font-semibold py-3'>Featured Power-Ups</h1>
-                        <div className='grid grid-cols-3 gap-2 '>
+                        <div className='grid grid-cols-3 gap-2'>
                             {
                                 powerUpCards?.map((card, index) => (
                                     <div key={index} className='w-[300px] h-[450px] bg-[#18191A]  rounded-xl '>
