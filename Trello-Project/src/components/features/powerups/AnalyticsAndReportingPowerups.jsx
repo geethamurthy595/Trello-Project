@@ -412,7 +412,7 @@ const AnalyticsAndReportingPowerups = () => {
           return (
             <div
               key={id}
-              className="w-70 h-50 flex flex-col justify-evenly p-2 rounded-md 
+              className="w-70 h-50 flex flex-col justify-evenly p-2 rounded-md cursor-pointer
               bg-[hsla(0,0%,100%,0.05)]
               hover:bg-[hsla(0,0%,100%,0.10)]
               border border-[hsla(0,0%,100%,0.08)]

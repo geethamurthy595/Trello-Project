@@ -150,9 +150,7 @@ const NonProfits = () => {
 
   return (
     <div className="process-tracking-page">
-      {/* ---------- HEADER ---------- */}
-      <NavBar />
-      {/* ---------- HERO SECTION ---------- */}
+     
       <section className="hero bg-linear-to-b from-blue-100 to-blue-0  py-7">
         <div className="container text-center max-w-4xl  mx-auto">
           <div className="hero-image   p-4 ">

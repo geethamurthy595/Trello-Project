@@ -175,6 +175,8 @@ import PowerUpAutomation from "../components/features/powerups/PowerUpAutomation
 import McCorvey from "../components/resources/help/customerstoriesInternalCards/McCorvey";
 import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
 import MarketingSocialMedia from "../components/features/powerups/MarketingSocialMedia";
+import ItAndProjectManagement from "../components/features/powerups/ItAndProjectManagement";
+
 import SalesSupport from "../components/features/powerups/SalesSupport";
 import Burgerfi from "../components/resources/help/customerstoriesInternalCards/Burgerfi.jsx";
 import Unicef from "../components/resources/help/customerstoriesInternalCards/Unicef";
@@ -259,8 +261,8 @@ let routes = createBrowserRouter([
         element:<MarketingSocialMedia />
       },
       {
-        path:"category/sales-support",
-        element:<SalesSupport />
+        path:"category/it-project-management",
+        element:<ItAndProjectManagement />
       }
     ]
   },
@@ -784,6 +786,10 @@ let routes = createBrowserRouter([
   {
     path: "/use-cases/meetings",
     element: <Meetings />,
+  },
+  {
+    path:"/use-cases/nonprofits",
+    element:<NonProfits/>
   },
   {
     path: "/templates/remote-work/remote-team-meetings-lYdxML7x",
