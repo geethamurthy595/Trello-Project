@@ -177,7 +177,7 @@ import AnalyticsAndReportingPowerups from "../components/features/powerups/Analy
 import MarketingSocialMedia from "../components/features/powerups/MarketingSocialMedia";
 import SalesSupport from "../components/features/powerups/SalesSupport";
 import Burgerfi from "../components/resources/help/customerstoriesInternalCards/Burgerfi.jsx";
-
+import Unicef from "../components/resources/help/customerstoriesInternalCards/Unicef";
 
 let routes = createBrowserRouter([
   {
@@ -960,6 +960,10 @@ let routes = createBrowserRouter([
         element:<Burgerfi/>
       },
      
+      {
+        path: "/resources/customerstories/unicef",
+        element: <Unicef/>,
+      },
 ]);
 
 export default routes;

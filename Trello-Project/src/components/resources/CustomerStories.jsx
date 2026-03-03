@@ -152,7 +152,7 @@ const CustomerStories = () => {
                   </a>
                 </Link>{" "}
                 {/* UNICEF */}
-                <div className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
+                <Link to="/resources/customerstories/unicef" className="box h-[300x] w-[383px]  pt-[16px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">
                     <div className="inner-box h-[268px] w-[348px]  font-normal">
                       <div className="background-image h-[99px] w-[348px] ">
@@ -173,7 +173,7 @@ const CustomerStories = () => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </Link>
               </div>
               {/* 3rd Row  */}
               <div className="first-row  h-[300px] w-[1140px] flex ">
