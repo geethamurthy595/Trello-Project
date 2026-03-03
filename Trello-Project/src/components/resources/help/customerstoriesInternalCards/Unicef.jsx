@@ -1,5 +1,5 @@
 import React from 'react'
-import unicef1 from '../../../../assets/unicef1.png';
+import unicefbf1 from '../../../../assets/analytics_and_reporting/unicefbf1.png';
 import unicef2 from '../../../../assets/unicef2.jpg';
 import unicef3 from '../../../../assets/unicef3.jpg';
 import unicef4 from '../../../../assets/unicef4.png';
@@ -28,7 +28,7 @@ const Unicef = () => {
    <NavBar />
     <section className="relative h-[300px] md:h-[400px] flex items-center justify-center">
   <img
-    src={unicef1}
+    src={unicefbf1}
     alt="UNICEF Background"
     className="absolute inset-0 w-full h-full object-cover "
   />
