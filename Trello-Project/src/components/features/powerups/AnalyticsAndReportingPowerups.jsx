@@ -60,6 +60,7 @@ let data = [
     title: "SumUp",
     desc: "Add values to your cards such as dollars or hours and show totals.",
     value: "10,000+",
+    path: "/power-ups/sumup",
   },
   {
     id: 3,
