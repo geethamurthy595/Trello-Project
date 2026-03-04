@@ -181,6 +181,8 @@ import Madebytrello from "../components/features/powerups/Madebytrello";
 import SalesSupport from "../components/features/powerups/SalesSupport";
 import Burgerfi from "../components/resources/help/customerstoriesInternalCards/Burgerfi.jsx";
 import Unicef from "../components/resources/help/customerstoriesInternalCards/Unicef";import FeatureFileManagement from "../components/features/powerups/FileManagement.jsx";
+import CommunicationAndCollaboration from "../components/features/powerups/CommunicationsAndCollaborations";
+import CommunicationsAndCollaborations from "../components/features/powerups/CommunicationsAndCollaborations";
 
 
 let routes = createBrowserRouter([
@@ -273,6 +275,11 @@ let routes = createBrowserRouter([
       {
         path:"made-by-trello",
         element:<Madebytrello/>
+      },
+      {
+        path:"category/communication-collaboration",
+        element:<CommunicationsAndCollaborations/>
+        
       }
     ]
   },
