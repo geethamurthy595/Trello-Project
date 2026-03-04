@@ -180,7 +180,8 @@ import Madebytrello from "../components/features/powerups/Madebytrello";
 
 import SalesSupport from "../components/features/powerups/SalesSupport";
 import Burgerfi from "../components/resources/help/customerstoriesInternalCards/Burgerfi.jsx";
-import Unicef from "../components/resources/help/customerstoriesInternalCards/Unicef";
+import Unicef from "../components/resources/help/customerstoriesInternalCards/Unicef";import FeatureFileManagement from "../components/features/powerups/FileManagement.jsx";
+
 
 let routes = createBrowserRouter([
   {
@@ -256,6 +257,10 @@ let routes = createBrowserRouter([
       {
         path:"category/automation",
         element:<PowerUpAutomation />
+      },
+      {
+        path:"/power-ups/category/file-management",
+        element:<FeatureFileManagement />
       },
       {
         path:"category/marketing-social-media",
