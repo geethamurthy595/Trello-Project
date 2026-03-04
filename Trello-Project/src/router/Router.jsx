@@ -179,6 +179,7 @@ import ItAndProjectManagement from "../components/features/powerups/ItAndProject
 
 import SalesSupport from "../components/features/powerups/SalesSupport";
 import Burgerfi from "../components/resources/help/customerstoriesInternalCards/Burgerfi.jsx";
+import FeatureFileManagement from "../components/features/powerups/FileManagement.jsx";
 
 
 let routes = createBrowserRouter([
@@ -255,6 +256,10 @@ let routes = createBrowserRouter([
       {
         path:"category/automation",
         element:<PowerUpAutomation />
+      },
+      {
+        path:"/power-ups/category/file-management",
+        element:<FeatureFileManagement />
       },
       {
         path:"category/marketing-social-media",
