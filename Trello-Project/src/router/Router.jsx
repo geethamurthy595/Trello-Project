@@ -175,6 +175,8 @@ import PowerUpAutomation from "../components/features/powerups/PowerUpAutomation
 import McCorvey from "../components/resources/help/customerstoriesInternalCards/McCorvey";
 import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
 import MarketingSocialMedia from "../components/features/powerups/MarketingSocialMedia";
+import CommunicationAndCollaboration from "../components/features/powerups/CommunicationsAndCollaborations";
+import CommunicationsAndCollaborations from "../components/features/powerups/CommunicationsAndCollaborations";
 
 
 let routes = createBrowserRouter([
@@ -255,6 +257,11 @@ let routes = createBrowserRouter([
       {
         path:"category/marketing-social-media",
         element:<MarketingSocialMedia />
+      },
+      {
+        path:"category/communication-collaboration",
+        element:<CommunicationsAndCollaborations/>
+        
       }
     ]
   },
@@ -948,7 +955,8 @@ let routes = createBrowserRouter([
       {
         path:"/customers/mccorvey-sheet-metal",
         element:<McCorvey/>
-      }
+      },
+  
 ]);
 
 export default routes;
