@@ -7,6 +7,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { CiStar } from "react-icons/ci";
 import { FaStar } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
+import DeveloperNavbar from "./DeveloperNavbar";
 
 const Developers = () => {
   const [openSections, setOpenSections] = useState(["powerup-first"]);
@@ -81,7 +82,7 @@ const Developers = () => {
       <div>
         <header>
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="h-16 flex items-center justify-between text-sm">
+            {/* <div className="h-16 flex items-center justify-between text-sm">
               <div className="flex items-center space-x-6">
                 <div className="flex items-center space-x-1.5 text-blue-800 border-r border-b-0 border-gray-300 pr-6 font-bold text-lg ">
                   <img
@@ -122,7 +123,8 @@ const Developers = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
+            <DeveloperNavbar/>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
               <nav className="h-12 flex items-center space-x-8 text-sm font-medium text-gray-700 ">
