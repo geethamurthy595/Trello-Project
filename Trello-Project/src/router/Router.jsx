@@ -186,6 +186,8 @@ import CommunicationsAndCollaborations from "../components/features/powerups/Com
 import HROpearion from "../components/features/powerups/HROpearion";
 import DevelopersHome from "../components/resources/help/developers/DevelopersHome.jsx";
 import Changelog from "../components/resources/help/developers/Changelog.jsx";
+import Cardaging from "../components/features/powerups/Cardaging1.jsx";
+import Cardaging1 from "../components/features/powerups/Cardaging1.jsx";
 
 
 let routes = createBrowserRouter([
@@ -1007,6 +1009,10 @@ let routes = createBrowserRouter([
          element: <Changelog />
          },
         ]
+      },
+      {
+          path:'/power-ups/55a5d917446f517774210012',
+          element: <Cardaging1/>
       }
 ]);
 

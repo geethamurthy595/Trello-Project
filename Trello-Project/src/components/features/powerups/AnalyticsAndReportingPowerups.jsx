@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import agile from "../../../assets/analytics_and_reporting/agile.svg";
 import harvest from "../../../assets/analytics_and_reporting/harvest.png";
 import reporting from "../../../assets/analytics_and_reporting/reporting.svg";
@@ -82,6 +84,7 @@ let data = [
     title: "Card Aging",
     desc: "Quickly visualize inactive cards and prevent incomplete tasks.",
     value: "500,000+",
+    link:'/power-ups/55a5d917446f517774210012'
   },
   {
     id: 6,
@@ -409,8 +412,9 @@ const AnalyticsAndReportingPowerups = () => {
       </h2>
 
       <div className="flex flex-wrap justify-center gap-3">
-        {data.map(({ id, image, title, desc, value }) => {
+        {data.map(({ id, image, title, desc, value,link}) => {
           return (
+           <Link to={link} key={id}>
             <div
               key={id}
               className="w-70 h-50 flex flex-col justify-evenly p-2 rounded-md cursor-pointer
@@ -419,7 +423,7 @@ const AnalyticsAndReportingPowerups = () => {
               border border-[hsla(0,0%,100%,0.08)]
               shadow-lg hover:shadow-2xl
               transition-all duration-300"
-            >
+              >
               <div>
                 <div className="flex items-center gap-1.5 mb-2">
                   {image && (
@@ -447,9 +451,11 @@ const AnalyticsAndReportingPowerups = () => {
                 )}
               </div>
             </div>
+           </Link>
           );
         })}
       </div>
+      <Outlet/>
     </div>
   );
 };
