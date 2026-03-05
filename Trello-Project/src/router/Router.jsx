@@ -175,6 +175,7 @@ import PowerUpAutomation from "../components/features/powerups/PowerUpAutomation
 import McCorvey from "../components/resources/help/customerstoriesInternalCards/McCorvey";
 import AnalyticsAndReportingPowerups from "../components/features/powerups/AnalyticsAndReportingPowerups";
 import MarketingSocialMedia from "../components/features/powerups/MarketingSocialMedia";
+import HROpearion from "../components/features/powerups/HROpearion";
 
 
 let routes = createBrowserRouter([
@@ -255,7 +256,11 @@ let routes = createBrowserRouter([
       {
         path:"category/marketing-social-media",
         element:<MarketingSocialMedia />
-      }
+      },
+      {
+        path:"hr-operations",
+        element:<HROpearion/>
+      },
     ]
   },
   {
