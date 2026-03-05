@@ -183,6 +183,7 @@ import Burgerfi from "../components/resources/help/customerstoriesInternalCards/
 import Unicef from "../components/resources/help/customerstoriesInternalCards/Unicef";import FeatureFileManagement from "../components/features/powerups/FileManagement.jsx";
 import CommunicationAndCollaboration from "../components/features/powerups/CommunicationsAndCollaborations";
 import CommunicationsAndCollaborations from "../components/features/powerups/CommunicationsAndCollaborations";
+import HROpearion from "../components/features/powerups/HROpearion";
 
 
 let routes = createBrowserRouter([
@@ -280,7 +281,11 @@ let routes = createBrowserRouter([
         path:"category/communication-collaboration",
         element:<CommunicationsAndCollaborations/>
         
-      }
+      },
+      {
+        path:"hr-operations",
+        element:<HROpearion/>
+      },
     ]
   },
   {
