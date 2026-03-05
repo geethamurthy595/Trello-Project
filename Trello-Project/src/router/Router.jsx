@@ -184,6 +184,8 @@ import Unicef from "../components/resources/help/customerstoriesInternalCards/Un
 import CommunicationAndCollaboration from "../components/features/powerups/CommunicationsAndCollaborations";
 import CommunicationsAndCollaborations from "../components/features/powerups/CommunicationsAndCollaborations";
 import HROpearion from "../components/features/powerups/HROpearion";
+import DevelopersHome from "../components/resources/help/developers/DevelopersHome.jsx";
+import Changelog from "../components/resources/help/developers/Changelog.jsx";
 
 
 let routes = createBrowserRouter([
@@ -556,10 +558,10 @@ let routes = createBrowserRouter([
     path: "/teams",
     element: <See_all_Teams />,
   },
-  {
-    path: "/cloud/trello/",
-    element: <Developers />,
-  },
+  // {
+  //   path: "/cloud/trello/",
+  //   element: <Developers />,
+  // },
   {
     path: "/power-ups/55a5d916446f517774210006",
     element: <GoogleDrive />,
@@ -992,6 +994,20 @@ let routes = createBrowserRouter([
         path: "/resources/customerstories/unicef",
         element: <Unicef/>,
       },
+      {
+        path:"cloud/trello",
+        element:<DevelopersHome/>,
+        children: [
+        { 
+          index: true,
+         element: <Developers />
+         },
+         { 
+          path: "changelog",
+         element: <Changelog />
+         },
+        ]
+      }
 ]);
 
 export default routes;

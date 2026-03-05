@@ -124,9 +124,9 @@ const Developers = () => {
                 </div>
               </div>
             </div> */}
-            <DeveloperNavbar/>
+            {/* <DeveloperNavbar/> */}
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            {/* <div className="max-w-7xl mx-auto px-4 sm:px-6">
               <nav className="h-12 flex items-center space-x-8 text-sm font-medium text-gray-700 ">
                 <p href="#" className="font-bold h-full flex items-center">
                   Trello
@@ -150,7 +150,7 @@ const Developers = () => {
                   Changelog
                 </a>
               </nav>
-            </div>
+            </div> */}
           </div>
         </header>
         <hr className="w-full mt-5 text-gray-300" />
