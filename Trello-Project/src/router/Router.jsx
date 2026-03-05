@@ -183,6 +183,8 @@ import Burgerfi from "../components/resources/help/customerstoriesInternalCards/
 import Unicef from "../components/resources/help/customerstoriesInternalCards/Unicef";import FeatureFileManagement from "../components/features/powerups/FileManagement.jsx";
 import CommunicationAndCollaboration from "../components/features/powerups/CommunicationsAndCollaborations";
 import CommunicationsAndCollaborations from "../components/features/powerups/CommunicationsAndCollaborations";
+import Cardaging from "../components/features/powerups/Cardaging1.jsx";
+import Cardaging1 from "../components/features/powerups/Cardaging1.jsx";
 
 
 let routes = createBrowserRouter([
@@ -987,6 +989,10 @@ let routes = createBrowserRouter([
         path: "/resources/customerstories/unicef",
         element: <Unicef/>,
       },
+      {
+          path:'/power-ups/55a5d917446f517774210012',
+          element: <Cardaging1/>
+      }
 ]);
 
 export default routes;
