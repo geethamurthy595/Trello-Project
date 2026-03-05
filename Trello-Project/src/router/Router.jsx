@@ -189,6 +189,7 @@ import Changelog from "../components/resources/help/developers/Changelog.jsx";
 import Cardaging from "../components/features/powerups/Cardaging1.jsx";
 import Cardaging1 from "../components/features/powerups/Cardaging1.jsx";
 
+import DevelopertoolsPowerups from "../components/features/powerups/DevelopertoolsPowerups.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -280,6 +281,10 @@ let routes = createBrowserRouter([
       {
         path:"made-by-trello",
         element:<Madebytrello/>
+      },
+      {
+        path:"category/developer-tools",
+        element:<DevelopertoolsPowerups />
       },
       {
         path:"category/communication-collaboration",

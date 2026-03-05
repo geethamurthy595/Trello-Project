@@ -87,10 +87,15 @@ const PowerUpsSidebar = () => {
         </p>
       </div>
       </Link>
-     
+      <Link
+        to="category/developer-tools"
+        className="flex items-center gap-1 p-1 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer"
+      >
       <div className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
         <p className="w-full font-semibold  m-0 p-0">Developer tools</p>
       </div>
+      </Link>
+     
       <Link to="/power-ups/category/file-management" className="flex items-center gap-1 py-1 pl-8 hover:bg-[#2B2C2F] rounded mb-2 cursor-pointer">
         <p className="w-full font-semibold  m-0 p-0">File management</p>
       </Link>
