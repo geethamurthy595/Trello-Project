@@ -46,7 +46,7 @@ import faviconios from "../../../assets/analytics_and_reporting/favicon-ios.png"
 import csv from "../../../assets/analytics_and_reporting/csv.png";
 import whoviewed from "../../../assets/analytics_and_reporting/whoviewed.png";
 import wistiaflags from "../../../assets/analytics_and_reporting/wistia-flags.png";
-
+import {Link} from "react-router-dom";
 
 let data = [
   {
@@ -62,7 +62,7 @@ let data = [
     title: "SumUp",
     desc: "Add values to your cards such as dollars or hours and show totals.",
     value: "10,000+",
-    path: "/power-ups/sumup",
+    link: "/power-ups/sumup",
   },
   {
     id: 3,

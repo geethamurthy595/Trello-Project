@@ -193,6 +193,7 @@ import DevelopertoolsPowerups from "../components/features/powerups/Developertoo
 import PalaceLaw from "../components/resources/help/customerstoriesInternalCards/PalaceLaw";
 import ProductDesign from "../components/features/powerups/productDesign";
 
+import Sumup from "../components/features/powerups/analyticsandreports/sumup.jsx";
 
 
 let routes = createBrowserRouter([
@@ -266,6 +267,7 @@ let routes = createBrowserRouter([
         path:"analytics-reporting",
         element:<AnalyticsAndReportingPowerups />
       },
+     
       {
         path:"category/automation",
         element:<PowerUpAutomation />
@@ -305,7 +307,12 @@ let routes = createBrowserRouter([
         element:<HROpearion/>
       },
     ]
+    
   },
+  {
+        path : "/power-ups/sumup",
+        element  : <Sumup/>
+      },
   {
     path: "/teams/product",
     element: <ProductManagement />,
@@ -1032,6 +1039,7 @@ let routes = createBrowserRouter([
         path: "/resources/customerstories/palacelaw",
         element: <PalaceLaw/>
       },
+       
 ]);
 
 export default routes;
