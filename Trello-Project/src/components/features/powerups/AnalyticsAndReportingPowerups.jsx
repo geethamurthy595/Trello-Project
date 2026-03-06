@@ -91,6 +91,7 @@ let data = [
     title: "Slope Calculator",
     desc: "Calculate slope of a line using two points.",
     value: "100+",
+    link:"/power-ups/63c930032c37b500c50e20d3"
   },
   {
     id: 7,
