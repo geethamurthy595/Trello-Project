@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="144px" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Miro_Icon_App_rounded</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.6,0 L134.4,0 C139.701934,-9.73949402e-16 144,4.2980664 144,9.6 L144,134.4 C144,139.701934 139.701934,144 134.4,144 L9.6,144 C4.2980664,144 6.49299601e-16,139.701934 0,134.4 L0,9.6 C-6.49299601e-16,4.2980664 4.2980664,9.73949402e-16 9.6,0 Z" id="path-1"></path>
+    </defs>
+    <g id="App-Icon-favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Miro_Icon_App_rounded">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle" fill="#FF6575" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Miro_Icon_App_square" mask="url(#mask-2)" fill-rule="evenodd" stroke-width="1">
+                <g>
+                    <polygon id="Rectangle" fill="#FFD02F" fill-rule="nonzero" points="0 0 144 0 144 144 0 144"></polygon>
+                    <polygon id="Fill-4" fill="#050038" points="98.1243443 19.2 82.7522039 19.2 96.3985247 40.3542259 67.5480154 19.2 52.175875 19.2 65.8217419 46.9170608 36.9716865 19.2 21.6 19.2 35.0220824 54.9773915 21.6 124.8 36.9716865 124.8 65.8217419 49.9342945 52.175875 124.8 67.5480154 124.8 96.3985247 43.3714595 82.7522039 124.8 98.1243443 124.8 127.198184 35.3556134"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
