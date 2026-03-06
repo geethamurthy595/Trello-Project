@@ -189,7 +189,7 @@ import Changelog from "../components/resources/help/developers/Changelog.jsx";
 import Cardaging from "../components/features/powerups/Cardaging1.jsx";
 import Cardaging1 from "../components/features/powerups/Cardaging1.jsx";
 
-import DevelopertoolsPowerups from "../components/features/powerups/DevelopertoolsPowerups.jsx";
+import DevelopertoolsPowerups from "../components/features/powerups/DevelopertoolsPowerups.jsx";import PalaceLaw from "../components/resources/help/customerstoriesInternalCards/PalaceLaw";
 
 let routes = createBrowserRouter([
   {
@@ -1019,6 +1019,10 @@ let routes = createBrowserRouter([
           path:'/power-ups/55a5d917446f517774210012',
           element: <Cardaging1/>
       }
+      {
+        path: "/resources/customerstories/palacelaw",
+        element: <PalaceLaw/>
+      },
 ]);
 
 export default routes;
