@@ -183,6 +183,7 @@ import Burgerfi from "../components/resources/help/customerstoriesInternalCards/
 import Unicef from "../components/resources/help/customerstoriesInternalCards/Unicef";import FeatureFileManagement from "../components/features/powerups/FileManagement.jsx";
 import CommunicationAndCollaboration from "../components/features/powerups/CommunicationsAndCollaborations";
 import CommunicationsAndCollaborations from "../components/features/powerups/CommunicationsAndCollaborations";
+import Sumup from "../components/features/powerups/analyticsandreports/sumup.jsx";
 
 
 let routes = createBrowserRouter([
@@ -256,6 +257,7 @@ let routes = createBrowserRouter([
         path:"analytics-reporting",
         element:<AnalyticsAndReportingPowerups />
       },
+     
       {
         path:"category/automation",
         element:<PowerUpAutomation />
@@ -282,7 +284,12 @@ let routes = createBrowserRouter([
         
       }
     ]
+    
   },
+  {
+        path : "/power-ups/sumup",
+        element  : <Sumup/>
+      },
   {
     path: "/teams/product",
     element: <ProductManagement />,
@@ -987,6 +994,7 @@ let routes = createBrowserRouter([
         path: "/resources/customerstories/unicef",
         element: <Unicef/>,
       },
+       
 ]);
 
 export default routes;

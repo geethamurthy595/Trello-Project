@@ -44,7 +44,7 @@ import faviconios from "../../../assets/analytics_and_reporting/favicon-ios.png"
 import csv from "../../../assets/analytics_and_reporting/csv.png";
 import whoviewed from "../../../assets/analytics_and_reporting/whoviewed.png";
 import wistiaflags from "../../../assets/analytics_and_reporting/wistia-flags.png";
-
+import {Link} from "react-router-dom";
 
 let data = [
   {
@@ -409,8 +409,9 @@ const AnalyticsAndReportingPowerups = () => {
       </h2>
 
       <div className="flex flex-wrap justify-center gap-3">
-        {data.map(({ id, image, title, desc, value }) => {
+        {data.map(({ id, image, title, desc, value, path }) => {
           return (
+            <Link to={path}  >
             <div
               key={id}
               className="w-70 h-50 flex flex-col justify-evenly p-2 rounded-md cursor-pointer
@@ -447,6 +448,7 @@ const AnalyticsAndReportingPowerups = () => {
                 )}
               </div>
             </div>
+            </Link>
           );
         })}
       </div>
