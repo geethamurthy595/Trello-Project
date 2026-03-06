@@ -189,7 +189,11 @@ import Changelog from "../components/resources/help/developers/Changelog.jsx";
 import Cardaging from "../components/features/powerups/Cardaging1.jsx";
 import Cardaging1 from "../components/features/powerups/Cardaging1.jsx";
 
-import DevelopertoolsPowerups from "../components/features/powerups/DevelopertoolsPowerups.jsx";import PalaceLaw from "../components/resources/help/customerstoriesInternalCards/PalaceLaw";
+import DevelopertoolsPowerups from "../components/features/powerups/DevelopertoolsPowerups.jsx";
+import PalaceLaw from "../components/resources/help/customerstoriesInternalCards/PalaceLaw";
+import ProductDesign from "../components/features/powerups/productDesign";
+
+
 
 let routes = createBrowserRouter([
   {
@@ -273,6 +277,11 @@ let routes = createBrowserRouter([
       {
         path:"category/marketing-social-media",
         element:<MarketingSocialMedia />
+      },
+      {
+        path:"category/product-design",
+        element:<ProductDesign/>
+        
       },
       {
         path:"category/it-project-management",
