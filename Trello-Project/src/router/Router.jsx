@@ -251,7 +251,7 @@ let routes = createBrowserRouter([
     element: <PowerUps />,
     children: [
       {
-        index:true,
+        path:"",
         element:<Featured/>,
       },
       {

@@ -17,10 +17,10 @@ const PowerUpsSidebar = () => {
         <IoSearchSharp className="absolute top-3 text-xl right-2" />
       </div>
 
-      <div className="flex items-center gap-1 text-[#669DF1] p-1 rounded mb-2 bg-[#1C2B42] cursor-pointer">
+      <Link to="" className="flex items-center gap-1 text-[#669DF1] p-1 rounded mb-2 bg-[#1C2B42] cursor-pointer">
         <FaRegStar className=" text-xl left-2" />
         <p className="w-full font-semibold  m-0 p-0">Featured</p>
-      </div>
+      </Link>
 
       <Link
         to="all"
