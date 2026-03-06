@@ -35,7 +35,7 @@ const CustomerStories = () => {
               {/* 1st Row  */}
               <div className="first-row  h-[365px] w-[1140px] flex ">
                 {/* Palace Law  */}
-                <div className="box h-[365px] w-[383px]  pt-[80px] pb-[16px] pr-[16px] pl-[16px] ">
+                <Link to='/resources/customerstories/palacelaw' className="box h-[365px] w-[383px]  pt-[80px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">
                     <div className="inner-box h-[268px] w-[348px]  font-normal">
                       <div className="background-image h-[99px] w-[348px] ">
@@ -56,7 +56,7 @@ const CustomerStories = () => {
                       </div>
                     </div>
                   </a>
-                </div>
+                </Link>
                 {/* Instinct  */}
                 <Link to="/customers/instinct-dog-training" className="box h-[365px] w-[383px]  pt-[80px] pb-[16px] pr-[16px] pl-[16px] ">
                   <a href="" className="">

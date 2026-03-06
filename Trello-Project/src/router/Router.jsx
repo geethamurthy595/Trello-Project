@@ -169,7 +169,7 @@ import AutomationPopup from "../components/boards/taskbar/taskbarAutomationPopup
 import AutomationRules from "../components/boards/taskbar/taskbarAutomationPopup/AutomationRules";
 import ActivityPopup from "../components/boards/taskbar/taskbarAutomationPopup/ActivityPopup";
 import AutomationDuedate from "../components/boards/taskbar/taskbarAutomationPopup/AutomationDuedate";
-
+import PalaceLaw from "../components/resources/help/customerstoriesInternalCards/PalaceLaw";
 
 let routes = createBrowserRouter([
   {
@@ -916,6 +916,10 @@ let routes = createBrowserRouter([
   {
         path: "/buttomNavbar",
         element: <ButtomNavbar/>,
+      },
+      {
+        path: "/resources/customerstories/palacelaw",
+        element: <PalaceLaw/>
       },
 ]);
 
