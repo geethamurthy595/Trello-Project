@@ -1018,7 +1018,7 @@ let routes = createBrowserRouter([
       {
           path:'/power-ups/55a5d917446f517774210012',
           element: <Cardaging1/>
-      }
+      },
       {
         path: "/resources/customerstories/palacelaw",
         element: <PalaceLaw/>
