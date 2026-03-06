@@ -188,6 +188,7 @@ import DevelopersHome from "../components/resources/help/developers/DevelopersHo
 import Changelog from "../components/resources/help/developers/Changelog.jsx";
 import Cardaging from "../components/features/powerups/Cardaging1.jsx";
 import Cardaging1 from "../components/features/powerups/Cardaging1.jsx";
+import SlopeCalculator from "../components/features/powerups/analyticsandreports/SlopeCalculator.jsx";
 
 import DevelopertoolsPowerups from "../components/features/powerups/DevelopertoolsPowerups.jsx";
 import PalaceLaw from "../components/resources/help/customerstoriesInternalCards/PalaceLaw";
@@ -289,6 +290,10 @@ let routes = createBrowserRouter([
       {
         path:"category/it-project-management",
         element:<ItAndProjectManagement />
+      },
+       {
+        path: "category/board-utilities",
+        element: <BoardUtility />,
       },
       {
         path:"made-by-trello",
@@ -490,10 +495,6 @@ let routes = createBrowserRouter([
       {
         path: "/integrations/automation",
         element: <IntegrationAutomation />,
-      },
-      {
-        path: "/integrations/board-utilities",
-        element: <BoardUtility />,
       },
       {
         path: "/integrations/communication-collaboration",
@@ -1038,6 +1039,10 @@ let routes = createBrowserRouter([
       {
           path:'/power-ups/55a5d917446f517774210012',
           element: <Cardaging1/>
+      },
+      {
+        path:"/power-ups/63c930032c37b500c50e20d3",
+        element:<SlopeCalculator/>
       },
       {
         path: "/resources/customerstories/palacelaw",
