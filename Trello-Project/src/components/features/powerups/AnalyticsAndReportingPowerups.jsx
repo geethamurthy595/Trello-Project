@@ -46,7 +46,7 @@ import faviconios from "../../../assets/analytics_and_reporting/favicon-ios.png"
 import csv from "../../../assets/analytics_and_reporting/csv.png";
 import whoviewed from "../../../assets/analytics_and_reporting/whoviewed.png";
 import wistiaflags from "../../../assets/analytics_and_reporting/wistia-flags.png";
-import {Link} from "react-router-dom";
+
 
 let data = [
   {
