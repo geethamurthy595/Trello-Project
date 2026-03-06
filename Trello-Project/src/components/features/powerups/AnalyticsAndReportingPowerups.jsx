@@ -100,6 +100,7 @@ let data = [
     title: "Invention Hub",
     desc: "Migrate inventive material into Trello cards.",
     value: "500+",
+    link:'/power-ups/5b2d506c62609bf9e8922158'
   },
   {
     id: 8,
