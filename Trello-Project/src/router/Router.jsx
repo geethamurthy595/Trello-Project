@@ -190,6 +190,7 @@ import Cardaging from "../components/features/powerups/Cardaging1.jsx";
 import Cardaging1 from "../components/features/powerups/Cardaging1.jsx";
 
 import DevelopertoolsPowerups from "../components/features/powerups/DevelopertoolsPowerups.jsx";
+import InventionHub from "../components/features/powerups/analyticsandreports/InventionHub.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1018,6 +1019,10 @@ let routes = createBrowserRouter([
       {
           path:'/power-ups/55a5d917446f517774210012',
           element: <Cardaging1/>
+      },
+      {
+        path:'/power-ups/5b2d506c62609bf9e8922158',
+        element:<InventionHub/>
       }
 ]);
 
