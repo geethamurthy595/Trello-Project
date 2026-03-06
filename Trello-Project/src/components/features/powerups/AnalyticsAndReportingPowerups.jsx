@@ -55,6 +55,7 @@ let data = [
     title: "Harvest",
     desc: "Track time right from your Trello cards with Harvest integration.",
     value: "25,000+",
+    link: "/power-ups/harvest",
   },
   {
     id: 2,

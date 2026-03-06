@@ -190,6 +190,7 @@ import Cardaging from "../components/features/powerups/Cardaging1.jsx";
 import Cardaging1 from "../components/features/powerups/Cardaging1.jsx";
 
 import DevelopertoolsPowerups from "../components/features/powerups/DevelopertoolsPowerups.jsx";
+import Harvest from "../components/features/powerups/analyticsandreports/Harvest.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -296,6 +297,9 @@ let routes = createBrowserRouter([
         element:<HROpearion/>
       },
     ]
+  },{
+    path: "/power-ups/harvest",
+    element: <Harvest />
   },
   {
     path: "/teams/product",
