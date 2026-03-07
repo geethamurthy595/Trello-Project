@@ -144,6 +144,7 @@ let data = [
     title: "Habit Tracker by UpgradeYourBrain",
     desc: "Habit tracker integrated with Trello.",
     value: "5,000+",
+    link:'/power-ups/5d3f40b4a5f03284e9f3bc24'
   },
   {
     id: 14,
