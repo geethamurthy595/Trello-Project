@@ -173,7 +173,7 @@ let marketingSocialMediaCSS = {
   innerDivCSS : "flex gap-2 h-11 justify-start items-center w-full",
   addButtonCSS : " px-4 rounded cursor-pointer bg-blue-300 text-black font-semibold hover:bg-blue-200",
   usersDivCSS : "mt-1 flex gap-3 justify-center items-center",
-  CardParentCSS : "flex flex-wrap gap-4 justify-center items-center"
+  CardParentCSS : "flex flex-wrap gap-4 "
 }
 
 // Handle Add button click function
