@@ -4,7 +4,7 @@ import { IoIosArrowBack, IoIosArrowDown } from "react-icons/io";
 import { HiSearch } from "react-icons/hi";
 import { ImFileText } from "react-icons/im";
 import { IoIosArrowForward } from "react-icons/io";
-import DeveloperChangelog from "../../../../assets/DeveloperChangelog.png"
+import DeveloperChangelog from "../../../../assets/DeveloperChangelog.png";
 
 const SectionFirstDiv = () => {
   return (
@@ -79,7 +79,7 @@ const SectionFirstDiv = () => {
   );
 };
 
-let arr = [1,2,3,4,5,6,7,8,9,10];
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const SectionSecendDiv = () => {
   return (
@@ -149,7 +149,7 @@ const Changelog = () => {
   const [fiftSectionVisible, setFiftSectionVisible] = useState(false);
   const [sixthSectionVisible, setSixthSectionVisible] = useState(false);
   return (
-    <div className="w-full pl-3 flex flex-col gap-5 text-[14px] opacity-80"> 
+    <div className="w-full pl-3 flex flex-col gap-5 text-[14px] opacity-80">
       <div className="w-[83%] px-30 flex flex-col gap-3 pt-4 ">
         <HeaderPart openFilter={openFilter} setOpenFilter={setOpenFilter} />
       </div>
@@ -655,21 +655,32 @@ const Changelog = () => {
         </div>
       </section>
 
-       <section className="w-[83%] px-30">
+      <section className="w-[83%] px-30">
         <h1 className="text-2xl mt-4 font-semibold ">21 August 2024</h1>
         <div className=" flex gap-2 items-center my-4">
-            <span className="text-red font-bold uppercase text-[10px]  tracking-widest text-amber-700 bg-amber-50 px-1">
-                  Deprecation Notice
-            </span>
+          <span className="text-red font-bold uppercase text-[10px]  tracking-widest text-amber-700 bg-amber-50 px-1">
+            Deprecation Notice
+          </span>
           <p className="font-bold font-sans text-[15px]">
-           card.idShort will now always be regenerated after board moves
+            card.idShort will now always be regenerated after board moves
           </p>
         </div>
         <p className="my-2">
-         Up until now, a card’s <span className="bg-cyan-100 rounded px-1"> idShort </span> field value would be restored to its previous value when the card is moved to a board it has previously been on.
+          Up until now, a card’s{" "}
+          <span className="bg-cyan-100 rounded px-1"> idShort </span> field
+          value would be restored to its previous value when the card is moved
+          to a board it has previously been on.
         </p>
         <p className="my-2">
-          Starting  <span className="bg-cyan-100 rounded px-1"> Aug 1, 2024 </span> this will no longer be the case. <span className="bg-cyan-100 rounded px-1"> idShort </span> will always receive a new sequence ID on the destination board. This will have no impact on existing <span className="bg-cyan-100 rounded px-1"> idShort </span> values, or on <span className="bg-cyan-100 rounded px-1"> idShort </span> values on cards moved within a single board.
+          Starting{" "}
+          <span className="bg-cyan-100 rounded px-1"> Aug 1, 2024 </span> this
+          will no longer be the case.{" "}
+          <span className="bg-cyan-100 rounded px-1"> idShort </span> will
+          always receive a new sequence ID on the destination board. This will
+          have no impact on existing{" "}
+          <span className="bg-cyan-100 rounded px-1"> idShort </span> values, or
+          on <span className="bg-cyan-100 rounded px-1"> idShort </span> values
+          on cards moved within a single board.
         </p>
         <p
           className=" border border-blue-100 p-2 mt-5 flex py-4 items-center w-full cursor-pointer"
@@ -682,10 +693,16 @@ const Changelog = () => {
           ${fiftSectionVisible ? "max-h-250 opacity-100 " : "max-h-0 opacity-0"}`}
         >
           <p>
-           Ensure your app does not store references to idShort values persistently - they may be invalidated due to moves across boards.
+            Ensure your app does not store references to idShort values
+            persistently - they may be invalidated due to moves across boards.
           </p>
           <p>
-           In general, we advise against usage of <span className="bg-cyan-100 rounded px-1"> idShort </span> in favor of using the card’s <span className="bg-cyan-100 rounded px-1"> id </span> since <span className="bg-cyan-100 rounded px-1"> idShort </span> values might get invalidated.
+            In general, we advise against usage of{" "}
+            <span className="bg-cyan-100 rounded px-1"> idShort </span> in favor
+            of using the card’s{" "}
+            <span className="bg-cyan-100 rounded px-1"> id </span> since{" "}
+            <span className="bg-cyan-100 rounded px-1"> idShort </span> values
+            might get invalidated.
           </p>
         </div>
       </section>
@@ -693,34 +710,48 @@ const Changelog = () => {
       <section className="w-[83%] px-30">
         <h1 className="text-2xl mt-4 font-semibold ">21 August 2024</h1>
         <div className=" flex gap-2 items-center my-4">
-            <span className="text-red uppercase font-bold text-[10px]  tracking-widest text-amber-600 bg-cyan-100 px-1">
-                  ADDED
-            </span>
+          <span className="text-red uppercase font-bold text-[10px]  tracking-widest text-amber-600 bg-cyan-100 px-1">
+            ADDED
+          </span>
           <p className="font-bold font-sans text-[15px]">
-            Iframe Connector URL domains of Public Power-Ups can now be changed by their owners
+            Iframe Connector URL domains of Public Power-Ups can now be changed
+            by their owners
           </p>
         </div>
         <p className="my-2">
-        As of July 17, 2024, you no longer need to contact Trello to change your public Power-Up Iframe Connector Url domain. You can self-serve this change by going to <span className="text-blue-500 hover:underline cursor-pointer">trello.com/power-ups/admin</span>, selecting your Power-Up, and updating the <strong> Iframe connector URL</strong> field in <strong>Basic information.</strong>
+          As of July 17, 2024, you no longer need to contact Trello to change
+          your public Power-Up Iframe Connector Url domain. You can self-serve
+          this change by going to{" "}
+          <span className="text-blue-500 hover:underline cursor-pointer">
+            trello.com/power-ups/admin
+          </span>
+          , selecting your Power-Up, and updating the{" "}
+          <strong> Iframe connector URL</strong> field in{" "}
+          <strong>Basic information.</strong>
         </p>
-        
-        
       </section>
 
       <section className="w-[83%] px-30">
         <h1 className="text-2xl mt-4 font-semibold ">21 August 2024</h1>
         <div className=" flex gap-2 items-center my-4">
-            <span className="text-red h-4 font-semibold text-[10px] uppercase  tracking-wide text-blue-700 bg-blue-100 px-1">
+          <span className="text-red h-4 font-semibold text-[10px] uppercase  tracking-wide text-blue-700 bg-blue-100 px-1">
             Announcement
           </span>
           <p className="font-bold font-sans text-[15px]">
-           Changing to the way that Power-Ups handle data when removed from a board
+            Changing to the way that Power-Ups handle data when removed from a
+            board
           </p>
         </div>
         <p className="my-2">
-         While disabling power-up, you can now select <strong>Keep all Power-Up data</strong> to opt-in to retain the plugin data stored on the board and cards.
+          While disabling power-up, you can now select{" "}
+          <strong>Keep all Power-Up data</strong> to opt-in to retain the plugin
+          data stored on the board and cards.
         </p>
-            <img src={DeveloperChangelog} alt="DeveloperChangelog image"  className="my-12"/>
+        <img
+          src={DeveloperChangelog}
+          alt="DeveloperChangelog image"
+          className="my-12"
+        />
         <p
           className=" border border-blue-100 p-2 mt-5 flex py-4 items-center w-full cursor-pointer"
           onClick={() => setSixthSectionVisible(!sixthSectionVisible)}
@@ -732,23 +763,26 @@ const Changelog = () => {
           ${sixthSectionVisible ? "max-h-250 opacity-100 " : "max-h-0 opacity-0"}`}
         >
           <p>
-           Previously, the Disable Power-up dialog defaulted to keeping the users data. Due to security and privacy concerns, we are now changing this functionality. Data will be deleted from active cards on the board immediately, whereas data on archived cards will be deleted asynchronously.
+            Previously, the Disable Power-up dialog defaulted to keeping the
+            users data. Due to security and privacy concerns, we are now
+            changing this functionality. Data will be deleted from active cards
+            on the board immediately, whereas data on archived cards will be
+            deleted asynchronously.
           </p>
         </div>
       </section>
 
-        <div className="flex  justify-center gap-6 items-center">
-            <IoIosArrowBack/>
-          {
-            arr.map((a)=>{
-          return(
-            <span key={a} className=" px-2 cursor-pointer font-bold rounded">{a}</span>
-          )
-        })
-          }
-          <IoIosArrowForward/>
-        </div>
-
+      <div className="flex  justify-center gap-6 items-center">
+        <IoIosArrowBack />
+        {arr.map((a) => {
+          return (
+            <span key={a} className=" px-2 cursor-pointer font-bold rounded">
+              {a}
+            </span>
+          );
+        })}
+        <IoIosArrowForward />
+      </div>
     </div>
   );
 };

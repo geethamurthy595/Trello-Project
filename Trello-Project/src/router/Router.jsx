@@ -197,11 +197,8 @@ import ProductDesign from "../components/features/powerups/productDesign";
 import Sumup from "../components/features/powerups/analyticsandreports/sumup.jsx";
 
 import Harvest from "../components/features/powerups/analyticsandreports/Harvest.jsx";
-<<<<<<< HEAD
-import InventionHub from "../components/features/powerups/analyticsandreports/InventionHub.jsx";
-=======
 import ProductivityTemplates from "../components/features/templates/ProductivityTemplates.jsx";
->>>>>>> productivity
+import InventionHub from "../components/features/powerups/analyticsandreports/InventionHub.jsx";
 
 let routes = createBrowserRouter([
   {
