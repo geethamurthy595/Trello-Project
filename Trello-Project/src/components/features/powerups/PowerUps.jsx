@@ -13,11 +13,11 @@ const PowerUps = () => {
     return (
         <>
             <NavBar />
-            <section className='w-full sticky  flex bg-[#1F1F21] text-[#BFC1C4] h-[100vh]'>
+            <section className='w-full sticky  flex bg-[#1F1F21] text-[#BFC1C4] h-screen'>
                 <PowerUpsSidebar/>
                 <Outlet/>
             </section>
-            <footer className='bg-[#1F1F21]  items-center w-full h-[100%] text-[#BFC1C4]'>
+            <footer className='bg-[#1F1F21]  items-center w-full h-screen text-[#BFC1C4]'>
                 <div className='flex gap-4 items-center justify-center pt-30'>
                     <p>Templates</p>
                     <p>Pricing</p>

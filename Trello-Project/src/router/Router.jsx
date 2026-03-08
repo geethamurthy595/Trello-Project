@@ -271,6 +271,10 @@ let routes = createBrowserRouter([
         element:<ViewAll/>
       },
       {
+        path:"category/salesandsupport",
+        element:<SalesSupport/>
+      },
+      {
         path:"analytics-reporting",
         element:<AnalyticsAndReportingPowerups />
       },
