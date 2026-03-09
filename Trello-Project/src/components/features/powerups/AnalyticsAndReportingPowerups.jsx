@@ -108,6 +108,7 @@ let data = [
     title: "Exports for Trello by Blue Cat (CSV, Excel)",
     desc: "Export your Trello data easily.",
     value: "50,000+",
+    link:"/power-ups/exportsfortrello"
   },
   {
     id: 9,

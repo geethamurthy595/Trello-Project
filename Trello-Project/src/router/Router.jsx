@@ -201,6 +201,7 @@ import ProductivityTemplates from "../components/features/templates/Productivity
 import InventionHub from "../components/features/powerups/analyticsandreports/InventionHub.jsx";
 import HabitTracker from "../components/features/powerups/analyticsandreports/HabitTracker.jsx";
 import TogglIntegration from "../components/features/powerups/analyticsandreports/TogglIntegration.jsx";
+import ExportsforTrello from "../components/features/powerups/analyticsandreports/ExportsforTrello.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -326,13 +327,18 @@ let routes = createBrowserRouter([
   {
         path : "/power-ups/sumup",
         element  : <Sumup/>
-      },{
+      },
+      {
     path: "/power-ups/harvest",
     element: <Harvest />
   },
   {
     path : "/power-ups/toggl-integration-for-trello",
     element : <TogglIntegration/>
+  },
+  {
+    path: "/power-ups/exportsfortrello",
+    element: <ExportsforTrello />
   },
   {
     path: "/teams/product",
