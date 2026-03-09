@@ -152,6 +152,7 @@ let data = [
     title: "Standard Deviation",
     desc: "Calculate standard deviation easily.",
     value: "100+",
+    link : "/power-ups/63c78bd6ac76bc03962833f9"
   },
   {
     id: 15,
