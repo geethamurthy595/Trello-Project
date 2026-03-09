@@ -122,6 +122,7 @@ let data = [
     title: "Toggl Integration for Trello",
     desc: "Operate time tracker without leaving Trello.",
     value: "10,000+",
+    link : "/power-ups/toggl-integration-for-trello",
   },
   {
     id: 11,
