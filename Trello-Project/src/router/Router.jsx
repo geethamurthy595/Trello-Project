@@ -196,6 +196,7 @@ import ProductDesign from "../components/features/powerups/productDesign";
 import Sumup from "../components/features/powerups/analyticsandreports/sumup.jsx";
 
 import Harvest from "../components/features/powerups/analyticsandreports/Harvest.jsx";
+import TogglIntegration from "../components/features/powerups/analyticsandreports/togglintegration.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -316,6 +317,10 @@ let routes = createBrowserRouter([
       },{
     path: "/power-ups/harvest",
     element: <Harvest />
+  },
+  {
+    path : "/power-ups/toggl-integration-for-trello",
+    element : <TogglIntegration/>
   },
   {
     path: "/teams/product",
