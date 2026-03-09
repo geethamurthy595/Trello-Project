@@ -199,6 +199,7 @@ import Sumup from "../components/features/powerups/analyticsandreports/sumup.jsx
 import Harvest from "../components/features/powerups/analyticsandreports/Harvest.jsx";
 import ProductivityTemplates from "../components/features/templates/ProductivityTemplates.jsx";
 import InventionHub from "../components/features/powerups/analyticsandreports/InventionHub.jsx";
+import HabitTracker from "../components/features/powerups/analyticsandreports/HabitTracker.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1058,6 +1059,10 @@ let routes = createBrowserRouter([
         path: "/resources/customerstories/palacelaw",
         element: <PalaceLaw/>
       },
+      {
+        path:'/power-ups/5d3f40b4a5f03284e9f3bc24',
+        element:<HabitTracker/>
+      }
        
 ]);
 
