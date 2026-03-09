@@ -202,6 +202,7 @@ import InventionHub from "../components/features/powerups/analyticsandreports/In
 import HabitTracker from "../components/features/powerups/analyticsandreports/HabitTracker.jsx";
 import TogglIntegration from "../components/features/powerups/analyticsandreports/TogglIntegration.jsx";
 import ExportsforTrello from "../components/features/powerups/analyticsandreports/ExportsforTrello.jsx";
+import ReportsbyAi from "../components/features/powerups/analyticsandreports/ReportsbyAi.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -339,6 +340,10 @@ let routes = createBrowserRouter([
   {
     path: "/power-ups/exportsfortrello",
     element: <ExportsforTrello />
+  },
+  {
+    path:"/power-ups/reports-by-ai",
+    element:<ReportsbyAi />
   },
   {
     path: "/teams/product",

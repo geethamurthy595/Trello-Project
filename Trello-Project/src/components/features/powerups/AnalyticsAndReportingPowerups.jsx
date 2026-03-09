@@ -180,6 +180,7 @@ let data = [
     title: "Reports by AI Analyst - decommissioned",
     desc: "AI-powered board insights.",
     value: "100+",
+    link:"/power-ups/reports-by-ai"
   },
   {
     id: 19,
