@@ -196,6 +196,7 @@ import ProductDesign from "../components/features/powerups/productDesign";
 import Sumup from "../components/features/powerups/analyticsandreports/sumup.jsx";
 
 import Harvest from "../components/features/powerups/analyticsandreports/Harvest.jsx";
+import ExportsforTrello from "../components/features/powerups/analyticsandreports/ExportsforTrello.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -313,9 +314,14 @@ let routes = createBrowserRouter([
   {
         path : "/power-ups/sumup",
         element  : <Sumup/>
-      },{
+      },
+      {
     path: "/power-ups/harvest",
     element: <Harvest />
+  },
+  {
+    path: "/power-ups/exportsfortrello",
+    element: <ExportsforTrello />
   },
   {
     path: "/teams/product",
