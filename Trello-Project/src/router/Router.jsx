@@ -198,6 +198,7 @@ import Sumup from "../components/features/powerups/analyticsandreports/sumup.jsx
 
 import Harvest from "../components/features/powerups/analyticsandreports/Harvest.jsx";
 import InventionHub from "../components/features/powerups/analyticsandreports/InventionHub.jsx";
+import SwimlanesByBlueCat from "../components/features/powerups/analyticsandreports/SwimlanesByBlueCat.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1053,6 +1054,10 @@ let routes = createBrowserRouter([
         path: "/resources/customerstories/palacelaw",
         element: <PalaceLaw/>
       },
+      {
+        path: "/power-ups/622f0650eda2213318a6fdee",
+        element : <SwimlanesByBlueCat/>
+      }
        
 ]);
 

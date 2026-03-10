@@ -136,6 +136,7 @@ let data = [
     title: "Swimlanes by Blue Cat",
     desc: "Group cards by label, member, or custom fields.",
     value: "50,000+",
+    link : "/power-ups/622f0650eda2213318a6fdee"
   },
 
   {
