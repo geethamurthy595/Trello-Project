@@ -1079,7 +1079,7 @@ let routes = createBrowserRouter([
       {
         path:'/power-ups/5d3f40b4a5f03284e9f3bc24',
         element:<HabitTracker/>
-      }
+      },
       {
         path: "/power-ups/622f0650eda2213318a6fdee",
         element : <SwimlanesByBlueCat/>
