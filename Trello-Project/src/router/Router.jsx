@@ -201,6 +201,7 @@ import ProductivityTemplates from "../components/features/templates/Productivity
 import InventionHub from "../components/features/powerups/analyticsandreports/InventionHub.jsx";
 import HabitTracker from "../components/features/powerups/analyticsandreports/HabitTracker.jsx";
 import TogglIntegration from "../components/features/powerups/analyticsandreports/TogglIntegration.jsx";
+import StandardDeviation from "../components/features/powerups/analyticsandreports/StandardDeviation.jsx";
 import ExportsforTrello from "../components/features/powerups/analyticsandreports/ExportsforTrello.jsx";
 import ReportsbyAi from "../components/features/powerups/analyticsandreports/ReportsbyAi.jsx";
 import SwimlanesByBlueCat from "../components/features/powerups/analyticsandreports/SwimlanesByBlueCat.jsx";
@@ -1083,6 +1084,10 @@ let routes = createBrowserRouter([
       {
         path: "/power-ups/622f0650eda2213318a6fdee",
         element : <SwimlanesByBlueCat/>
+      },
+      {
+        path:"/power-ups/63c78bd6ac76bc03962833f9",
+        element:<StandardDeviation/>
       }
        
 ]);
