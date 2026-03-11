@@ -203,6 +203,7 @@ import HabitTracker from "../components/features/powerups/analyticsandreports/Ha
 import TogglIntegration from "../components/features/powerups/analyticsandreports/TogglIntegration.jsx";
 import ExportsforTrello from "../components/features/powerups/analyticsandreports/ExportsforTrello.jsx";
 import ReportsbyAi from "../components/features/powerups/analyticsandreports/ReportsbyAi.jsx";
+import SwimlanesByBlueCat from "../components/features/powerups/analyticsandreports/SwimlanesByBlueCat.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1078,6 +1079,10 @@ let routes = createBrowserRouter([
       {
         path:'/power-ups/5d3f40b4a5f03284e9f3bc24',
         element:<HabitTracker/>
+      }
+      {
+        path: "/power-ups/622f0650eda2213318a6fdee",
+        element : <SwimlanesByBlueCat/>
       }
        
 ]);
