@@ -201,6 +201,7 @@ import ProductivityTemplates from "../components/features/templates/Productivity
 import InventionHub from "../components/features/powerups/analyticsandreports/InventionHub.jsx";
 import HabitTracker from "../components/features/powerups/analyticsandreports/HabitTracker.jsx";
 import TogglIntegration from "../components/features/powerups/analyticsandreports/TogglIntegration.jsx";
+import Dashio from "../components/features/powerups/analyticsandreports/Dashio.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -333,6 +334,10 @@ let routes = createBrowserRouter([
   {
     path : "/power-ups/toggl-integration-for-trello",
     element : <TogglIntegration/>
+  },
+  {
+    path : "/power-ups/5c697e38e3a0791c604b2d41",
+    element : <Dashio/>
   },
   {
     path: "/teams/product",
