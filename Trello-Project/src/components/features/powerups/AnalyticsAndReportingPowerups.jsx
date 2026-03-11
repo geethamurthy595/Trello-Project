@@ -162,6 +162,7 @@ let data = [
     title: "Time Tracker by TimeCamp",
     desc: "Track time and generate reports.",
     value: "50,000+",
+    link:'/power-ups/59cf411fe342369bca2565b9'
   },
   {
     id: 16,

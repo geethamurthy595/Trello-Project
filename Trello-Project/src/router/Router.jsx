@@ -205,6 +205,7 @@ import StandardDeviation from "../components/features/powerups/analyticsandrepor
 import ExportsforTrello from "../components/features/powerups/analyticsandreports/ExportsforTrello.jsx";
 import ReportsbyAi from "../components/features/powerups/analyticsandreports/ReportsbyAi.jsx";
 import SwimlanesByBlueCat from "../components/features/powerups/analyticsandreports/SwimlanesByBlueCat.jsx";
+import TimeTracker from "../components/features/powerups/analyticsandreports/TimeTracker.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1088,6 +1089,10 @@ let routes = createBrowserRouter([
       {
         path:"/power-ups/63c78bd6ac76bc03962833f9",
         element:<StandardDeviation/>
+      },
+      {
+        path:'/power-ups/59cf411fe342369bca2565b9',
+        element:<TimeTracker/>
       }
        
 ]);
