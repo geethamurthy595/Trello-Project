@@ -170,6 +170,7 @@ let data = [
     title: "Dashio",
     desc: "Track agile metrics with real-time charts.",
     value: "1,000+",
+    link : "/power-ups/5c697e38e3a0791c604b2d41",
   },
   {
     id: 17,
