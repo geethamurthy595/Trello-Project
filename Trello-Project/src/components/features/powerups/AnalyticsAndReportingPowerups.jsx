@@ -178,6 +178,7 @@ let data = [
     title: "GoodGantt",
     desc: "Realtime Gantt Chart integration.",
     value: "10,000+",
+    link : "/power-ups/goodgantt",
   },
   {
     id: 18,
@@ -206,6 +207,7 @@ let data = [
     title: "Analytics & Reports by Screenful",
     desc: "Advanced charts and automated reports.",
     value: "25,000+",
+    link : "/power-ups/570262ea1100fa611d7e200a"
   },
   {
     id: 22,
