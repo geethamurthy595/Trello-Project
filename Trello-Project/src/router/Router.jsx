@@ -207,6 +207,8 @@ import ReportsbyAi from "../components/features/powerups/analyticsandreports/Rep
 import SwimlanesByBlueCat from "../components/features/powerups/analyticsandreports/SwimlanesByBlueCat.jsx";
 import TimeTracker from "../components/features/powerups/analyticsandreports/TimeTracker.jsx";
 import Dashio from "../components/features/powerups/analyticsandreports/Dashio.jsx";
+import GoodGantt from "../components/features/powerups/analyticsandreports/GoodGantt.jsx";
+import AnalyticsReportsByScreenful from "../components/features/powerups/analyticsandreports/Analytics&ReportsByScreenful.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -352,6 +354,14 @@ let routes = createBrowserRouter([
   {
     path : "/power-ups/5c697e38e3a0791c604b2d41",
     element : <Dashio/>
+  },
+  {
+     path : "/power-ups/goodgantt",
+     element : <GoodGantt/>
+  },
+  {
+    path : "/power-ups/570262ea1100fa611d7e200a",
+    element : <AnalyticsReportsByScreenful/>
   },
   {
     path: "/teams/product",
