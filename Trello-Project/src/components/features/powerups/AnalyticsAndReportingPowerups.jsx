@@ -212,6 +212,7 @@ let data = [
     title: "Bank Blender Finance",
     desc: "We've built Tiller for Trello to manage financial workflows.",
     value: "100+",
+    link:'/power-ups/67ad0f66c16323b2d7065943'
   },
   {
     id: 23,

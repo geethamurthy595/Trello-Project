@@ -208,6 +208,7 @@ import SwimlanesByBlueCat from "../components/features/powerups/analyticsandrepo
 import TimeTracker from "../components/features/powerups/analyticsandreports/TimeTracker.jsx";
 import Dashio from "../components/features/powerups/analyticsandreports/Dashio.jsx";
 import RpowerUps from "../components/resources/help/developers/RpowerUps.jsx";
+import BankBlenderFinance from "../components/features/powerups/analyticsandreports/BankBlenderFinance.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1103,6 +1104,9 @@ let routes = createBrowserRouter([
       {
         path:'/power-ups/59cf411fe342369bca2565b9',
         element:<TimeTracker/>
+      },{
+        path:'/power-ups/67ad0f66c16323b2d7065943',
+        element:<BankBlenderFinance/>
       }
        
 ]);
