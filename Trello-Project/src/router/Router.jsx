@@ -207,6 +207,7 @@ import ReportsbyAi from "../components/features/powerups/analyticsandreports/Rep
 import SwimlanesByBlueCat from "../components/features/powerups/analyticsandreports/SwimlanesByBlueCat.jsx";
 import TimeTracker from "../components/features/powerups/analyticsandreports/TimeTracker.jsx";
 import Dashio from "../components/features/powerups/analyticsandreports/Dashio.jsx";
+import RpowerUps from "../components/resources/help/developers/RpowerUps.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1065,6 +1066,10 @@ let routes = createBrowserRouter([
           path: "changelog",
          element: <Changelog />
          },
+         {
+          path: "/cloud/trello/power-ups/",
+          element: <RpowerUps />
+         }
         ]
       },
       {
