@@ -196,6 +196,7 @@ import ProductDesign from "../components/features/powerups/productDesign";
 import Sumup from "../components/features/powerups/analyticsandreports/sumup.jsx";
 
 import Harvest from "../components/features/powerups/analyticsandreports/Harvest.jsx";
+import RpowerUps from "../components/resources/help/developers/RpowerUps.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1033,6 +1034,10 @@ let routes = createBrowserRouter([
           path: "changelog",
          element: <Changelog />
          },
+         {
+          path: "/cloud/trello/power-ups/",
+          element: <RpowerUps />
+         }
         ]
       },
       {
