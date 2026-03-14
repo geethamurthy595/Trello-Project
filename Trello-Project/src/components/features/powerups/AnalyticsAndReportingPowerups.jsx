@@ -230,6 +230,7 @@ let data = [
     title: "MailChimp",
     desc: "At a glance, get up-to-date information and stats about templates and campaigns attached to a card.",
     value: "25,000+",
+    link: '/power-ups/55a5d917446f51777421000c/mailchimp',
   },
   {
     id: 25,
