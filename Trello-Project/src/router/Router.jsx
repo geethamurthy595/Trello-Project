@@ -355,6 +355,14 @@ let routes = createBrowserRouter([
     element : <Dashio/>
   },
   {
+     path : "/power-ups/goodgantt",
+     element : <GoodGantt/>
+  },
+  {
+    path : "/power-ups/570262ea1100fa611d7e200a",
+    element : <AnalyticsReportsByScreenful/>
+  },
+  {
     path: "/teams/product",
     element: <ProductManagement />,
   },
@@ -1066,6 +1074,10 @@ let routes = createBrowserRouter([
           path: "changelog",
          element: <Changelog />
          },
+         {
+          path: "/cloud/trello/power-ups/",
+          element: <RpowerUps />
+         }
         ]
       },
       {

@@ -178,6 +178,7 @@ let data = [
     title: "GoodGantt",
     desc: "Realtime Gantt Chart integration.",
     value: "10,000+",
+    link : "/power-ups/goodgantt",
   },
   {
     id: 18,
@@ -206,12 +207,14 @@ let data = [
     title: "Analytics & Reports by Screenful",
     desc: "Advanced charts and automated reports.",
     value: "25,000+",
+    link : "/power-ups/570262ea1100fa611d7e200a"
   },
   {
     id: 22,
     title: "Bank Blender Finance",
     desc: "We've built Tiller for Trello to manage financial workflows.",
     value: "100+",
+    link:'/power-ups/67ad0f66c16323b2d7065943'
   },
   {
     id: 23,
