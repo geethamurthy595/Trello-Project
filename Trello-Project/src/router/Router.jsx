@@ -213,6 +213,7 @@ import GoodGantt from "../components/features/powerups/analyticsandreports/GoodG
 import AnalyticsReportsByScreenful from "../components/features/powerups/analyticsandreports/Analytics&ReportsByScreenful.jsx";
 import AnalyticsTinyPowerUpsClub from "../components/features/powerups/analyticsandreports/AnalyticsTinyPowerUpsClub.jsx";
 import TimeTrackingForTrelloCards from "../components/features/powerups/analyticsandreports/TimeTrackingForTrelloCards.jsx";
+import AnyFields from "../components/features/powerups/analyticsandreports/Anyfeilds.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -350,6 +351,10 @@ let routes = createBrowserRouter([
   {
     path: "/power-ups/exportsfortrello",
     element: <ExportsforTrello />
+  },
+  {
+     path:"power-ups/any-feilds",
+      element:<AnyFields />
   },
   {
     path:"/power-ups/reports-by-ai",
