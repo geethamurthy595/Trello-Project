@@ -222,6 +222,7 @@ let data = [
     title: "Analytics - Tiny Power-Ups Club",
     desc: "Easy view-tracking on boards and cards.",
     value: "1,000+",
+    link : "/power-ups/613269624bccb32439780227"
   },
   {
     id: 24,

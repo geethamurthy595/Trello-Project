@@ -211,6 +211,7 @@ import RpowerUps from "../components/resources/help/developers/RpowerUps.jsx";
 import BankBlenderFinance from "../components/features/powerups/analyticsandreports/BankBlenderFinance.jsx";
 import GoodGantt from "../components/features/powerups/analyticsandreports/GoodGantt.jsx";
 import AnalyticsReportsByScreenful from "../components/features/powerups/analyticsandreports/Analytics&ReportsByScreenful.jsx";
+import AnalyticsTinyPowerUpsClub from "../components/features/powerups/analyticsandreports/AnalyticsTinyPowerUpsClub.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1117,6 +1118,10 @@ let routes = createBrowserRouter([
       },{
         path:'/power-ups/67ad0f66c16323b2d7065943',
         element:<BankBlenderFinance/>
+      },
+      {
+        path:"/power-ups/613269624bccb32439780227",
+        element:<AnalyticsTinyPowerUpsClub/>
       }
        
 ]);
