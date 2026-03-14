@@ -212,6 +212,7 @@ import BankBlenderFinance from "../components/features/powerups/analyticsandrepo
 import GoodGantt from "../components/features/powerups/analyticsandreports/GoodGantt.jsx";
 import AnalyticsReportsByScreenful from "../components/features/powerups/analyticsandreports/Analytics&ReportsByScreenful.jsx";
 import AnalyticsTinyPowerUpsClub from "../components/features/powerups/analyticsandreports/AnalyticsTinyPowerUpsClub.jsx";
+import TimeTrackingForTrelloCards from "../components/features/powerups/analyticsandreports/TimeTrackingForTrelloCards.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1122,6 +1123,10 @@ let routes = createBrowserRouter([
       {
         path:"/power-ups/613269624bccb32439780227",
         element:<AnalyticsTinyPowerUpsClub/>
+      },
+      {
+        path:'/power-ups/682c19fcd2c2384f846488ba',
+        element:<TimeTrackingForTrelloCards/>
       }
        
 ]);
