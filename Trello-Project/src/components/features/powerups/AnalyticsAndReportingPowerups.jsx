@@ -192,6 +192,7 @@ let data = [
     title: "Any Fields",
     desc: "Create custom fields across boards.",
     value: "1,000+",
+    link:"/power-ups/any-feilds"
   },
   {
     id: 20,

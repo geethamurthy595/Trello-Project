@@ -207,6 +207,7 @@ import ReportsbyAi from "../components/features/powerups/analyticsandreports/Rep
 import SwimlanesByBlueCat from "../components/features/powerups/analyticsandreports/SwimlanesByBlueCat.jsx";
 import TimeTracker from "../components/features/powerups/analyticsandreports/TimeTracker.jsx";
 import Dashio from "../components/features/powerups/analyticsandreports/Dashio.jsx";
+import AnyFields from "../components/features/powerups/analyticsandreports/Anyfeilds.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -344,6 +345,10 @@ let routes = createBrowserRouter([
   {
     path: "/power-ups/exportsfortrello",
     element: <ExportsforTrello />
+  },
+  {
+     path:"power-ups/any-feilds",
+      element:<AnyFields />
   },
   {
     path:"/power-ups/reports-by-ai",
