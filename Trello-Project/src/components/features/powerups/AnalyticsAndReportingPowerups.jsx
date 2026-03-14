@@ -234,6 +234,7 @@ let data = [
     title: "T&M: Time tracking for Trello cards",
     desc: "Simple and efficient way to track work time.",
     value: "100+",
+    link:'/power-ups/682c19fcd2c2384f846488ba'
   },
   {
     id: 26,

@@ -209,6 +209,7 @@ import TimeTracker from "../components/features/powerups/analyticsandreports/Tim
 import Dashio from "../components/features/powerups/analyticsandreports/Dashio.jsx";
 import RpowerUps from "../components/resources/help/developers/RpowerUps.jsx";
 import BankBlenderFinance from "../components/features/powerups/analyticsandreports/BankBlenderFinance.jsx";
+import TimeTrackingForTrelloCards from "../components/features/powerups/analyticsandreports/TimeTrackingForTrelloCards.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1107,6 +1108,10 @@ let routes = createBrowserRouter([
       },{
         path:'/power-ups/67ad0f66c16323b2d7065943',
         element:<BankBlenderFinance/>
+      },
+      {
+        path:'/power-ups/682c19fcd2c2384f846488ba',
+        element:<TimeTrackingForTrelloCards/>
       }
        
 ]);
