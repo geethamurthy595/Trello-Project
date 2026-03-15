@@ -214,6 +214,7 @@ import AnalyticsReportsByScreenful from "../components/features/powerups/analyti
 import AnalyticsTinyPowerUpsClub from "../components/features/powerups/analyticsandreports/AnalyticsTinyPowerUpsClub.jsx";
 import TimeTrackingForTrelloCards from "../components/features/powerups/analyticsandreports/TimeTrackingForTrelloCards.jsx";
 import AnyFields from "../components/features/powerups/analyticsandreports/Anyfeilds.jsx";
+import CrossBoardReportingAndDashboard from "../components/features/powerups/analyticsandreports/CrossBoardReportingAndDashboard.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1132,6 +1133,10 @@ let routes = createBrowserRouter([
       {
         path:'/power-ups/682c19fcd2c2384f846488ba',
         element:<TimeTrackingForTrelloCards/>
+      },
+      {
+        path:'/power-ups/66291013ec3abfbf13b255c6',
+        element:<CrossBoardReportingAndDashboard/>
       }
        
 ]);

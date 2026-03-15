@@ -260,6 +260,7 @@ let data = [
     title: "Cross-Board Reporting & Dashboards",
     desc: "View tasks from multiple boards and workspaces. Track KPIs with charts, analytics and export data to Excel.",
     value: "100+",
+    link:'/power-ups/66291013ec3abfbf13b255c6'
   },
   {
     id: 29,
