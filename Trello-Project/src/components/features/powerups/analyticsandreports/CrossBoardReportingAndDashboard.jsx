@@ -2,6 +2,7 @@ import React,{Fragment, useState} from 'react'
 import NavBar from '../../../NavBar'
 import { Link } from 'react-router-dom'
 import img1 from '../../../../assets/crossimg1.png'
+import img2 from '../../../../assets/crossimg2.webp'
 import img4 from "../../../../assets/timetrackerimg3.svg"
 import img5 from "../../../../assets/timetrackerimg4.png"
 import { CiMail } from 'react-icons/ci'
@@ -175,7 +176,7 @@ const CrossBoardReportingAndDashboard = () => {
                 <h1 className='text-2xl font-medium'>Get a complete project overview.</h1>
                 <p className=''>Tired of checking scattered lists? Our app lets you <strong>combine Trello boards</strong> and workspaces into one unified analytics screen.</p>
                 <p className=''>Stop switching tabs. Instantly generate a high-level <strong>summary board</strong>, then <strong>share your dashboard with your team</strong>. Ensure everyone sees the full picture — or create private views for your own tasks — without moving a single card.</p>
-                <img></img>
+                <img src={img2}></img>
                 
                 <h1 className='text-xl font-medium'>Key Features:</h1>
                 {
@@ -185,7 +186,11 @@ const CrossBoardReportingAndDashboard = () => {
                 }
                 <h1 className='text-xl font-medium'>⚙️ Professional Analytics with Custom Fields</h1>
                 <p>Stop being limited by standard views. Our app unlocks the full power of your data. It is a perfect solution if you need to <strong>filter by custom fields</strong> or <strong>sum custom fields </strong>across multiple workspaces:</p>
-                {}
+                 {
+                    professionalAnalytics.map((feature)=>{
+                        return <p>{feature}</p>
+                    })
+                }
                 <p>Precision Filtering: Build reports that matter with <strong>advanced filters</strong>. Use logic like "contains", "is empty", or group conditions to remove noise and focus on the data that matters. Don't just watch data — drive results by <strong>setting goals</strong> and visual targets for every metric.</p>
                 <div className='flex flex-col gap-1'><h1 className='font-bold text-xl'>💸 Subscription Plans & Trial</h1>
                 <p>Start with <strong>a 14-day Free Trial</strong> — no credit card required, unlimited boards, and full access to all features. Experience how <strong>Cross-Board Reporting & Dashboards</strong> can level up your workflow before you choose a plan.</p>
