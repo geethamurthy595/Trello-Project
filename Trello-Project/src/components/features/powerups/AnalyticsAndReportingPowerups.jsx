@@ -116,6 +116,7 @@ let data = [
     title: "Alerts by Rung",
     desc: "Track important alerts and notifications.",
     value: "1,000+",
+    link : "/power-ups/593fd953bf51b56e7bb1e5b7"
   },
   {
     id: 10,

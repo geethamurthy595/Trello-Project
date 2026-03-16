@@ -195,6 +195,7 @@ import PalaceLaw from "../components/resources/help/customerstoriesInternalCards
 import ProductDesign from "../components/features/powerups/productDesign";
 
 import Sumup from "../components/features/powerups/analyticsandreports/sumup.jsx";
+import AlertsByRung from "../components/features/powerups/analyticsandreports/AlertsByRung.jsx";
 
 import Harvest from "../components/features/powerups/analyticsandreports/Harvest.jsx";
 import ProductivityTemplates from "../components/features/templates/ProductivityTemplates.jsx";
@@ -1146,8 +1147,11 @@ let routes = createBrowserRouter([
       },{
         path: 'power-ups/671a939ace67d0b570f20d3f',
         element: <EpicsByRogueShadows/>
-      }
-       
+      },
+       {
+        path:"/power-ups/593fd953bf51b56e7bb1e5b7",
+        element:<AlertsByRung/>
+       }
 ]);
 
 export default routes;
