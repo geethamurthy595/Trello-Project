@@ -218,6 +218,7 @@ import TimeTrackingForTrelloCards from "../components/features/powerups/analytic
 import AnyFields from "../components/features/powerups/analyticsandreports/Anyfeilds.jsx";
 import CrossBoardReportingAndDashboard from "../components/features/powerups/analyticsandreports/CrossBoardReportingAndDashboard.jsx";
 import BoardVisualizerForTrello from "../components/features/powerups/analyticsandreports/BoardVisualizerForTrello.jsx";
+import ExpenseTrackello from "../components/features/powerups/analyticsandreports/ExpenseTrackello.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1136,6 +1137,10 @@ let routes = createBrowserRouter([
       {
         path:"/power-ups/613269624bccb32439780227",
         element:<AnalyticsTinyPowerUpsClub/>
+      },
+      {
+        path : "/power-ups/601b5ad6810bf03354366eab",
+        element : <ExpenseTrackello/>
       },
       {
         path:'/power-ups/682c19fcd2c2384f846488ba',

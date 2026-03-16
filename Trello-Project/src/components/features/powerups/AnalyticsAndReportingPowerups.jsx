@@ -248,6 +248,7 @@ let data = [
     title: "Expense Trackello",
     desc: "An easy and convenient way to track and export expenses to Excel directly on your board.",
     value: "5,000+",
+    link : "/power-ups/601b5ad6810bf03354366eab"
   },
   {
     id: 27,
