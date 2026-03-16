@@ -194,6 +194,7 @@ import PalaceLaw from "../components/resources/help/customerstoriesInternalCards
 import ProductDesign from "../components/features/powerups/productDesign";
 
 import Sumup from "../components/features/powerups/analyticsandreports/sumup.jsx";
+import AlertsByRung from "../components/features/powerups/analyticsandreports/AlertsByRung.jsx";
 
 
 let routes = createBrowserRouter([
@@ -1039,7 +1040,10 @@ let routes = createBrowserRouter([
         path: "/resources/customerstories/palacelaw",
         element: <PalaceLaw/>
       },
-       
+       {
+        path:"/power-ups/593fd953bf51b56e7bb1e5b7",
+        element:<AlertsByRung/>
+       }
 ]);
 
 export default routes;
