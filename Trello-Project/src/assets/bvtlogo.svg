@@ -1,0 +1,10 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outermost circle: H=10, S=38, B=91 -> RGB: #E8A79B -->
+  <circle cx="128" cy="128" r="128" fill="#E8A79B"/>
+  <!-- Second circle: H=21, S=23, B=96 -> RGB: #F4C4B8 -->
+  <circle cx="128" cy="128" r="96" fill="#F4C4B8"/>
+  <!-- Third circle: H=34, S=16, B=98 -> RGB: #FBF0EB -->
+  <circle cx="128" cy="128" r="64" fill="#FBF0EB"/>
+  <!-- Innermost circle: H=43, S=13, B=99 -> RGB: #FCF7EE -->
+  <circle cx="128" cy="128" r="32" fill="#FCF7EE"/>
+</svg>

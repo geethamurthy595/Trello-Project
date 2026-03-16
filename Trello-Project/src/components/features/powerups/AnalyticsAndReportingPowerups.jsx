@@ -267,6 +267,7 @@ let data = [
     title: "Board Visualizer for Trello",
     desc: "Visualize checklist items on an interactive timeline with drag-and-drop rescheduling and workload tracking.",
     value: "500+",
+    link : "/power-ups/board-visualizer-for-trello"
   },
   {
     id: 30,
