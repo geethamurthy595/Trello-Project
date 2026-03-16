@@ -40,7 +40,7 @@ const ExpenseTrackello = () => {
           <Link to="/power-ups" className="hover:underline">
             Power-Ups
           </Link>{" "}
-          / Expense Trackello
+          / <Link className="hover:underline">Expense Trackello</Link>
         </p>
       </div>
 
