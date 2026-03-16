@@ -211,6 +211,7 @@ import RpowerUps from "../components/resources/help/developers/RpowerUps.jsx";
 import BankBlenderFinance from "../components/features/powerups/analyticsandreports/BankBlenderFinance.jsx";
 import GoodGantt from "../components/features/powerups/analyticsandreports/GoodGantt.jsx";
 import AnalyticsReportsByScreenful from "../components/features/powerups/analyticsandreports/Analytics&ReportsByScreenful.jsx";
+import EpicsByRogueShadows from "../components/features/powerups/analyticsandreports/EpicsByRogueShadows.jsx";
 import AnalyticsTinyPowerUpsClub from "../components/features/powerups/analyticsandreports/AnalyticsTinyPowerUpsClub.jsx";
 import TimeTrackingForTrelloCards from "../components/features/powerups/analyticsandreports/TimeTrackingForTrelloCards.jsx";
 import AnyFields from "../components/features/powerups/analyticsandreports/Anyfeilds.jsx";
@@ -1137,6 +1138,9 @@ let routes = createBrowserRouter([
       {
         path:'/power-ups/66291013ec3abfbf13b255c6',
         element:<CrossBoardReportingAndDashboard/>
+      },{
+        path: 'power-ups/671a939ace67d0b570f20d3f',
+        element: <EpicsByRogueShadows/>
       }
        
 ]);

@@ -1,9 +1,6 @@
 import NavBar from '../../../NavBar'
 import AtlassianFooter from '../../../solutions/taskManagement/AtlassianFooter'
 import { Link } from 'react-router-dom'
-// import { CiMail } from 'react-icons/ci'
-// import { MdOutlinePrivacyTip } from 'react-icons/md'
-// import { AiTwotoneLock } from 'react-icons/ai'
 import reporting from "../../../../assets/analytics_and_reporting/reporting.svg";
 import email from "../../../../assets/emailharvest.png";
 import info from "../../../../assets/infoharvest.png";

@@ -201,6 +201,7 @@ let data = [
     title: "Epics by Rogue Shadows",
     desc: "All-in-one agile board plugin.",
     value: "500+",
+    link:'/power-ups/671a939ace67d0b570f20d3f'
   },
   {
     id: 21,
