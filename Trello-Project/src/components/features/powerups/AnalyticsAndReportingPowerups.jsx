@@ -285,6 +285,7 @@ let data = [
     title: "Undo for Trello",
     desc: "One-click restore for your business-critical data on Trello.",
     value: "10,000+",
+    link : "/power-ups/undo-for-trello"
   },
   {
     id: 32,
