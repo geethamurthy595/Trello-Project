@@ -311,6 +311,7 @@ let data = [
     title: "Daily Updates",
     desc: "Daily standup tool to sync your team by asking everyone what they did yesterday, today & issues they’re facing.",
     value: "5,000+",
+    link :"/power-ups/5d5b3b96fe9c9f88bc7bd311"
   },
   {
     id: 36,

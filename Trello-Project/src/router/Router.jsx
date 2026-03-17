@@ -218,6 +218,7 @@ import TimeTrackingForTrelloCards from "../components/features/powerups/analytic
 import AnyFields from "../components/features/powerups/analyticsandreports/Anyfeilds.jsx";
 import CrossBoardReportingAndDashboard from "../components/features/powerups/analyticsandreports/CrossBoardReportingAndDashboard.jsx";
 import BoardVisualizerForTrello from "../components/features/powerups/analyticsandreports/BoardVisualizerForTrello.jsx";
+import DailyUpdate from "../components/features/powerups/analyticsandreports/DailyUpdate.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1151,6 +1152,10 @@ let routes = createBrowserRouter([
        {
         path:"/power-ups/593fd953bf51b56e7bb1e5b7",
         element:<AlertsByRung/>
+       },
+       {
+        path : "/power-ups/5d5b3b96fe9c9f88bc7bd311",
+       element: <DailyUpdate/>
        }
 ]);
 
