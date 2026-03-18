@@ -272,7 +272,7 @@ const ProductDesign = () => {
 
   return (
     <section className={ProductDesign.sectionCSS}>
-      <h2 className={ProductDesign.automationTittle}>Sales & support</h2>
+      <h2 className={ProductDesign.automationTittle}>Product Design</h2>
       <div className={ProductDesign.CardParentCSS}>
         {productDesignPowerUps.map((cardObject) => {
           return (
