@@ -71,6 +71,7 @@ let data = [
     title: "Pivot Table (by Conjoint.ly)",
     desc: "Pivot table functionality for Trello boards using custom fields and members.",
     value: "5,000+",
+    link:"/power-ups/5d84733c6fd69f69b3d8ce95",
   },
   {
     id: 4,

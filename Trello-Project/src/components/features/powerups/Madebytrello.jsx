@@ -19,7 +19,6 @@ import slack from "../../../assets/Powerups-Madebytrello/slack.svg";
 import voting from "../../../assets/Powerups-Madebytrello/voting-icon.svg";
 import logo from "../../../assets/Powerups-Madebytrello/logo.png";
 import { FaHeart } from "react-icons/fa";
-
 <FaHeart className="text-red-500" />
 
 

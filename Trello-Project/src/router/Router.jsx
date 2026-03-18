@@ -200,6 +200,7 @@ import AlertsByRung from "../components/features/powerups/analyticsandreports/Al
 import Harvest from "../components/features/powerups/analyticsandreports/Harvest.jsx";
 import ProductivityTemplates from "../components/features/templates/ProductivityTemplates.jsx";
 import InventionHub from "../components/features/powerups/analyticsandreports/InventionHub.jsx";
+
 import HabitTracker from "../components/features/powerups/analyticsandreports/HabitTracker.jsx";
 import TogglIntegration from "../components/features/powerups/analyticsandreports/TogglIntegration.jsx";
 import StandardDeviation from "../components/features/powerups/analyticsandreports/StandardDeviation.jsx";
@@ -222,6 +223,9 @@ import DailyUpdate from "../components/features/powerups/analyticsandreports/Dai
 import ExpenseTrackello from "../components/features/powerups/analyticsandreports/ExpenseTrackello.jsx";
 import UndoForTrello from "../components/features/powerups/analyticsandreports/UndoForTrello.jsx";
 import WalletIncomeAndExpences from "../components/features/powerups/analyticsandreports/WalletIncomeAndExpences.jsx";
+import Pivot from "../components/features/powerups/analyticsandreports/Pivot.jsx";
+
+
 
 let routes = createBrowserRouter([
   {
@@ -1171,7 +1175,11 @@ let routes = createBrowserRouter([
        {
         path:'/power-ups/6869fbd7d81cdf00f27b4f61',
         element:<WalletIncomeAndExpences/>
-       }
+       },
+       {
+        path:"/power-ups/5d84733c6fd69f69b3d8ce95",
+        element: <Pivot/>,
+      },
 ]);
 
 export default routes;
