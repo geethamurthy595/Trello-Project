@@ -221,6 +221,7 @@ import BoardVisualizerForTrello from "../components/features/powerups/analyticsa
 import DailyUpdate from "../components/features/powerups/analyticsandreports/DailyUpdate.jsx";
 import ExpenseTrackello from "../components/features/powerups/analyticsandreports/ExpenseTrackello.jsx";
 import UndoForTrello from "../components/features/powerups/analyticsandreports/UndoForTrello.jsx";
+import WalletIncomeAndExpences from "../components/features/powerups/analyticsandreports/WalletIncomeAndExpences.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1166,6 +1167,10 @@ let routes = createBrowserRouter([
        {
         path : "/power-ups/5d5b3b96fe9c9f88bc7bd311",
        element: <DailyUpdate/>
+       },
+       {
+        path:'/power-ups/6869fbd7d81cdf00f27b4f61',
+        element:<WalletIncomeAndExpences/>
        }
 ]);
 

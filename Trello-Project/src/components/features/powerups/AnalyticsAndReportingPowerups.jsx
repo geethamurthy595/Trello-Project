@@ -300,6 +300,7 @@ let data = [
     title: "Wallet Income & Expenses Best for Online Business",
     desc: "Waller + Online Income and Expenses Tracker.",
     value: "100+",
+    link:'/power-ups/6869fbd7d81cdf00f27b4f61'
   },
   {
     id: 34,
