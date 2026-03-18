@@ -198,6 +198,8 @@ import Sumup from "../components/features/powerups/analyticsandreports/sumup.jsx
 
 import Harvest from "../components/features/powerups/analyticsandreports/Harvest.jsx";
 import InventionHub from "../components/features/powerups/analyticsandreports/InventionHub.jsx";
+import Pivot from "../components/features/powerups/analyticsandreports/Pivot.jsx";
+
 
 let routes = createBrowserRouter([
   {
@@ -1053,7 +1055,10 @@ let routes = createBrowserRouter([
         path: "/resources/customerstories/palacelaw",
         element: <PalaceLaw/>
       },
-       
+      {
+        path:"/power-ups/5d84733c6fd69f69b3d8ce95",
+        element: <Pivot/>,
+      },
 ]);
 
 export default routes;
