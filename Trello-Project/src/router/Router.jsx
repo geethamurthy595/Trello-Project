@@ -219,6 +219,7 @@ import AnyFields from "../components/features/powerups/analyticsandreports/Anyfe
 import CrossBoardReportingAndDashboard from "../components/features/powerups/analyticsandreports/CrossBoardReportingAndDashboard.jsx";
 import BoardVisualizerForTrello from "../components/features/powerups/analyticsandreports/BoardVisualizerForTrello.jsx";
 import ExpenseTrackello from "../components/features/powerups/analyticsandreports/ExpenseTrackello.jsx";
+import NotionTwoWay from "../components/features/powerups/analyticsandreports/NotionTwoWay.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -380,6 +381,10 @@ let routes = createBrowserRouter([
   {
      path : "/power-ups/board-visualizer-for-trello",
      element : <BoardVisualizerForTrello/>
+  },
+  {
+     path:"/power-ups/notion-trello-two-way-sync",
+      element : <NotionTwoWay />
   },
   {
     path: "/teams/product",

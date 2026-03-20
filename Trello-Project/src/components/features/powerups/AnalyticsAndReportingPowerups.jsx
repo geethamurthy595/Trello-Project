@@ -256,6 +256,7 @@ let data = [
     title: "Notion + Trello 2-Way Sync",
     desc: "Sync Trello cards and Notion databases automatically with real-time two-way integration.",
     value: "10,000+",
+    link : "/power-ups/notion-trello-two-way-sync"
   },
   {
     id: 28,
