@@ -323,6 +323,7 @@ let data = [
     title: "Trello Time Tracking by Apploye",
     desc: "Connect Apploye Time Tracker and Trello to make project & time management smooth and effortless.",
     value: "1,000+",
+    link : "/power-ups/615d5b18dd889573e477dcdc"
   },
   {
     id: 37,

@@ -224,6 +224,7 @@ import ExpenseTrackello from "../components/features/powerups/analyticsandreport
 import UndoForTrello from "../components/features/powerups/analyticsandreports/UndoForTrello.jsx";
 import WalletIncomeAndExpences from "../components/features/powerups/analyticsandreports/WalletIncomeAndExpences.jsx";
 import Pivot from "../components/features/powerups/analyticsandreports/Pivot.jsx";
+import TrelloTimeTracking from "../components/features/powerups/analyticsandreports/TrelloTimeTracking.jsx";
 
 
 
@@ -1180,6 +1181,10 @@ let routes = createBrowserRouter([
         path:"/power-ups/5d84733c6fd69f69b3d8ce95",
         element: <Pivot/>,
       },
+      {
+        path : "/power-ups/615d5b18dd889573e477dcdc",
+        element: <TrelloTimeTracking/>
+      }
 ]);
 
 export default routes;
