@@ -219,6 +219,7 @@ import AnyFields from "../components/features/powerups/analyticsandreports/Anyfe
 import CrossBoardReportingAndDashboard from "../components/features/powerups/analyticsandreports/CrossBoardReportingAndDashboard.jsx";
 import BoardVisualizerForTrello from "../components/features/powerups/analyticsandreports/BoardVisualizerForTrello.jsx";
 import ExpenseTrackello from "../components/features/powerups/analyticsandreports/ExpenseTrackello.jsx";
+import MeetreAI from "../components/features/powerups/analyticsandreports/MeetreAI.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1156,6 +1157,10 @@ let routes = createBrowserRouter([
        {
         path:"/power-ups/593fd953bf51b56e7bb1e5b7",
         element:<AlertsByRung/>
+       },
+       {
+        path:"/power-ups/692b15b2ff9d8c7d71ed8d91",
+        element:<MeetreAI/>
        }
 ]);
 

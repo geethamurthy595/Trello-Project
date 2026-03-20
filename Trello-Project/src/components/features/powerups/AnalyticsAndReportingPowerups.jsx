@@ -305,6 +305,7 @@ let data = [
     image: MeetreAI,
     title: "Meetre AI",
     desc: "AI that transforms boards into structured intelligence, uncovering insights that drive faster and better decisions.",
+    link : "/power-ups/692b15b2ff9d8c7d71ed8d91"
   },
   {
     id: 35,
