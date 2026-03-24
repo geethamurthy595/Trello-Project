@@ -225,6 +225,7 @@ import UndoForTrello from "../components/features/powerups/analyticsandreports/U
 import WalletIncomeAndExpences from "../components/features/powerups/analyticsandreports/WalletIncomeAndExpences.jsx";
 import Pivot from "../components/features/powerups/analyticsandreports/Pivot.jsx";
 import TrelloTimeTracking from "../components/features/powerups/analyticsandreports/TrelloTimeTracking.jsx";
+import WorkspaceReports from "../components/features/powerups/analyticsandreports/WorkspaceReports.jsx";
 
 
 
@@ -392,6 +393,10 @@ let routes = createBrowserRouter([
   {
      path : "/power-ups/undo-for-trello",
      element : <UndoForTrello/>
+  },
+  { 
+    path : "/power-ups/62d1ae596c260a5422c5bff1",
+    element : <WorkspaceReports/>
   },
   {
     path: "/teams/product",

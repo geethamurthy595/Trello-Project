@@ -352,6 +352,7 @@ let data = [
     title: "Workspace Reports",
     desc: "Build dynamic table-based reports.",
     value: "1,000+",
+    link : "/power-ups/62d1ae596c260a5422c5bff1",
   },
   {
     id: 41,
