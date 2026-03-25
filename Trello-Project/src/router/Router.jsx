@@ -224,6 +224,7 @@ import ExpenseTrackello from "../components/features/powerups/analyticsandreport
 import UndoForTrello from "../components/features/powerups/analyticsandreports/UndoForTrello.jsx";
 import WalletIncomeAndExpences from "../components/features/powerups/analyticsandreports/WalletIncomeAndExpences.jsx";
 import Pivot from "../components/features/powerups/analyticsandreports/Pivot.jsx";
+import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx";
 
 
 
@@ -1179,6 +1180,10 @@ let routes = createBrowserRouter([
        {
         path:"/power-ups/5d84733c6fd69f69b3d8ce95",
         element: <Pivot/>,
+      },
+      {
+        path:"/power-ups/69314b6c5f37ae1295d8eebc",
+        element:<Cardview/>,
       },
 ]);
 

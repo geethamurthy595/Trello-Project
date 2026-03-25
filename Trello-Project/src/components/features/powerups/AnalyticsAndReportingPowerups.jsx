@@ -337,6 +337,8 @@ let data = [
     title: "Card Views & Board Visits",
     desc: "Track who visits your boards and cards, when, and for how long — with clear, built-in analytics.",
     value: "500+",
+    link:"/power-ups/69314b6c5f37ae1295d8eebc",
+    
   },
   {
     id: 39,
