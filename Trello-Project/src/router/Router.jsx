@@ -225,6 +225,8 @@ import UndoForTrello from "../components/features/powerups/analyticsandreports/U
 import WalletIncomeAndExpences from "../components/features/powerups/analyticsandreports/WalletIncomeAndExpences.jsx";
 import Pivot from "../components/features/powerups/analyticsandreports/Pivot.jsx";
 import TrelloTimeTracking from "../components/features/powerups/analyticsandreports/TrelloTimeTracking.jsx";
+import TeamCard from "../components/solutions/seeAllUseCases/meetings/remoteteamMeetings/Teamcard.jsx";
+import TeamGrantt from "../components/features/powerups/analyticsandreports/TeamGrantt.jsx";
 
 
 
@@ -1184,6 +1186,10 @@ let routes = createBrowserRouter([
       {
         path : "/power-ups/615d5b18dd889573e477dcdc",
         element: <TrelloTimeTracking/>
+      },
+      {
+        path : "/power-ups/5970d4298c14fdf691c95a76",
+        element: <TeamGrantt/>
       }
 ]);
 

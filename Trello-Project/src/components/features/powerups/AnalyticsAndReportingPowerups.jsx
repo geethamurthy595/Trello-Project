@@ -359,6 +359,7 @@ let data = [
     title: "Dashcards",
     desc: "Turn any board into a dashboard and track work across Trello",
     value: "100,000+",
+    link : "/power-ups/6048e897c73d032a983e2a7c"
   },
   {
     id: 42,
@@ -366,6 +367,7 @@ let data = [
     title: "TeamGantt",
     desc: "View your cards in a beautiful timeline used by thousands of customers worldwide.",
     value: "100,000+",
+    link : "/power-ups/5970d4298c14fdf691c95a76"
   },
   {
     id: 43,
