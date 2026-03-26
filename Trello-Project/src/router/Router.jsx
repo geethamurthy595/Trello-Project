@@ -229,6 +229,7 @@ import TeamCard from "../components/solutions/seeAllUseCases/meetings/remoteteam
 import TeamGrantt from "../components/features/powerups/analyticsandreports/TeamGrantt.jsx";
 import WorkspaceReports from "../components/features/powerups/analyticsandreports/WorkspaceReports.jsx";
 import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx";
+import ClockifyIntegrationForTrello from "../components/features/powerups/analyticsandreports/ClockifyIntegrationForTrello.jsx";
 
 
 
@@ -392,6 +393,10 @@ let routes = createBrowserRouter([
   {
      path : "/power-ups/board-visualizer-for-trello",
      element : <BoardVisualizerForTrello/>
+  },
+  {
+    path : "/power-ups/610aa8f099715a7006149568",
+    element : <ClockifyIntegrationForTrello/>
   },
   {
      path : "/power-ups/undo-for-trello",

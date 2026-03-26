@@ -378,6 +378,7 @@ let data = [
     title: "Clockify Integration for Trello",
     desc: "Operate Clockify time tracker inside your Trello board.",
     value: "10,000+",
+    link : "/power-ups/610aa8f099715a7006149568",
   },
   {
     id: 44,
