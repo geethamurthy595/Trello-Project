@@ -228,6 +228,7 @@ import TrelloTimeTracking from "../components/features/powerups/analyticsandrepo
 import TeamCard from "../components/solutions/seeAllUseCases/meetings/remoteteamMeetings/Teamcard.jsx";
 import TeamGrantt from "../components/features/powerups/analyticsandreports/TeamGrantt.jsx";
 import WorkspaceReports from "../components/features/powerups/analyticsandreports/WorkspaceReports.jsx";
+import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx";
 
 
 
@@ -1195,7 +1196,11 @@ let routes = createBrowserRouter([
       {
         path : "/power-ups/5970d4298c14fdf691c95a76",
         element: <TeamGrantt/>
-      }
+      },
+      {
+        path:"/power-ups/69314b6c5f37ae1295d8eebc",
+        element:<Cardview/>,
+      },
 ]);
 
 export default routes;
