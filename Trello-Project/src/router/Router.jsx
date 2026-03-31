@@ -230,6 +230,7 @@ import TeamGrantt from "../components/features/powerups/analyticsandreports/Team
 import WorkspaceReports from "../components/features/powerups/analyticsandreports/WorkspaceReports.jsx";
 import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx";
 import ClockifyIntegrationForTrello from "../components/features/powerups/analyticsandreports/ClockifyIntegrationForTrello.jsx";
+import Wistia from "../components/features/powerups/analyticsandreports/Wistia.jsx";
 
 
 
@@ -365,6 +366,10 @@ let routes = createBrowserRouter([
   {
     path : "/power-ups/toggl-integration-for-trello",
     element : <TogglIntegration/>
+  },
+  {
+    path : "/power-ups/wistia",
+    element : <Wistia/>
   },
   {
     path: "/power-ups/exportsfortrello",

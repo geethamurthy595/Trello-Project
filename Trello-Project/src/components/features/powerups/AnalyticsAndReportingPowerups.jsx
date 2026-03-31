@@ -434,6 +434,7 @@ let data = [
     title: "Wistia",
     desc: "The Wistia Trello Power-Up makes it easier and more delightful to manage and measure your videos.",
     value: "5,000+",
+    link : "/power-ups/wistia",
   },
 
 ];
