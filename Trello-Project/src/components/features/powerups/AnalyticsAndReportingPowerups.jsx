@@ -326,6 +326,7 @@ let data = [
     title: "Reports by Blue Cat",
     desc: "Easy, beautiful, fully customizable drag-and-drop reporting for Trello.",
     value: "100,000+",
+    link:'/power-ups/5d9c90aa18965066fcd44730'
   },
   {
     id: 38,

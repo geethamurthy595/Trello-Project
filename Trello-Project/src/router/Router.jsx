@@ -219,6 +219,7 @@ import AnyFields from "../components/features/powerups/analyticsandreports/Anyfe
 import CrossBoardReportingAndDashboard from "../components/features/powerups/analyticsandreports/CrossBoardReportingAndDashboard.jsx";
 import BoardVisualizerForTrello from "../components/features/powerups/analyticsandreports/BoardVisualizerForTrello.jsx";
 import ExpenseTrackello from "../components/features/powerups/analyticsandreports/ExpenseTrackello.jsx";
+import ReportsByBlueCat from "../components/features/powerups/analyticsandreports/ReportsByBlueCat.jsx";
 
 let routes = createBrowserRouter([
   {
@@ -1156,6 +1157,10 @@ let routes = createBrowserRouter([
        {
         path:"/power-ups/593fd953bf51b56e7bb1e5b7",
         element:<AlertsByRung/>
+       },
+       {
+          path:'/power-ups/5d9c90aa18965066fcd44730',
+          element:<ReportsByBlueCat/>
        }
 ]);
 
