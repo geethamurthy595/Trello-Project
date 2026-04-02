@@ -308,6 +308,7 @@ let data = [
     image: MeetreAI,
     title: "Meetre AI",
     desc: "AI that transforms boards into structured intelligence, uncovering insights that drive faster and better decisions.",
+    link : "/power-ups/692b15b2ff9d8c7d71ed8d91"
   },
   {
     id: 35,
@@ -399,6 +400,7 @@ let data = [
     title: "Victor The Tech Lead",
     desc: "AI-powered Virtual Tech Lead built to help you and your team develop great projects.",
     value: "100+",
+    link : "/power-ups/6582ee797ae33c0e343509d5"
   },
   {
     id: 47,
