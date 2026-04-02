@@ -389,6 +389,7 @@ let data = [
     title: "Victor The Tech Lead",
     desc: "AI-powered Virtual Tech Lead built to help you and your team develop great projects.",
     value: "100+",
+    link : "/power-ups/6582ee797ae33c0e343509d5"
   },
   {
     id: 47,
