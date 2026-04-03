@@ -222,6 +222,11 @@ import BoardVisualizerForTrello from "../components/features/powerups/analyticsa
 import DailyUpdate from "../components/features/powerups/analyticsandreports/DailyUpdate.jsx";
 import ExpenseTrackello from "../components/features/powerups/analyticsandreports/ExpenseTrackello.jsx";
 import ReportsByBlueCat from "../components/features/powerups/analyticsandreports/ReportsByBlueCat.jsx";
+import Wistia from "../components/features/powerups/analyticsandreports/Wistia.jsx";
+import ClockifyIntegrationForTrello  from "../components/features/powerups/analyticsandreports/ClockifyIntegrationForTrello.jsx";
+import UndoForTrello  from "../components/features/powerups/analyticsandreports/UndoForTrello.jsx";
+import WorkspaceReports  from "../components/features/powerups/analyticsandreports/WorkspaceReports.jsx";
+
 
 let routes = createBrowserRouter([
   {
