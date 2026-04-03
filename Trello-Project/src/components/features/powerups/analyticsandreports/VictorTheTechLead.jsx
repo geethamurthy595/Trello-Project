@@ -140,7 +140,7 @@ const VictorTheTechLead = () => {
   </div>
 </div>
 
-<p>Fill up the form:</p>
+<p className="mt-3">Fill up the form:</p>
 
 
 <div className="flex justify-center mt-5">
