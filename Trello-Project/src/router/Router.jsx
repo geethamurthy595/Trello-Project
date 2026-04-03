@@ -1184,6 +1184,10 @@ let routes = createBrowserRouter([
        {
           path:'/power-ups/5d9c90aa18965066fcd44730',
           element:<ReportsByBlueCat/>
+       },
+       {
+        path:'/power-ups/5f808abe91c1cc5574585240',
+        element:<TimeTrackingByTrackingTime/>
        }
 ]);
 

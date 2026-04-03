@@ -409,6 +409,7 @@ let data = [
     title: "Time tracker by Tracking Time",
     desc: "Simple time tracking for Trello. Track cards and get automatic timesheets.",
     value: "5,000+",
+    link:'/power-ups/5f808abe91c1cc5574585240'
   },
   {
     id: 48,
