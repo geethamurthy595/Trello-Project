@@ -71,6 +71,7 @@ let data = [
     title: "Pivot Table (by Conjoint.ly)",
     desc: "Pivot table functionality for Trello boards using custom fields and members.",
     value: "5,000+",
+    link:"/power-ups/5d84733c6fd69f69b3d8ce95",
   },
   {
     id: 4,
@@ -285,6 +286,7 @@ let data = [
     title: "Undo for Trello",
     desc: "One-click restore for your business-critical data on Trello.",
     value: "10,000+",
+    link : "/power-ups/undo-for-trello"
   },
   {
     id: 32,
@@ -299,12 +301,14 @@ let data = [
     title: "Wallet Income & Expenses Best for Online Business",
     desc: "Waller + Online Income and Expenses Tracker.",
     value: "100+",
+    link:'/power-ups/6869fbd7d81cdf00f27b4f61'
   },
   {
     id: 34,
     image: MeetreAI,
     title: "Meetre AI",
     desc: "AI that transforms boards into structured intelligence, uncovering insights that drive faster and better decisions.",
+    link : "/power-ups/692b15b2ff9d8c7d71ed8d91"
   },
   {
     id: 35,
@@ -312,6 +316,7 @@ let data = [
     title: "Daily Updates",
     desc: "Daily standup tool to sync your team by asking everyone what they did yesterday, today & issues they’re facing.",
     value: "5,000+",
+    link :"/power-ups/5d5b3b96fe9c9f88bc7bd311"
   },
   {
     id: 36,
@@ -319,6 +324,7 @@ let data = [
     title: "Trello Time Tracking by Apploye",
     desc: "Connect Apploye Time Tracker and Trello to make project & time management smooth and effortless.",
     value: "1,000+",
+    link : "/power-ups/615d5b18dd889573e477dcdc"
   },
   {
     id: 37,
@@ -334,6 +340,8 @@ let data = [
     title: "Card Views & Board Visits",
     desc: "Track who visits your boards and cards, when, and for how long — with clear, built-in analytics.",
     value: "500+",
+    link:"/power-ups/69314b6c5f37ae1295d8eebc",
+    
   },
   {
     id: 39,
@@ -348,6 +356,7 @@ let data = [
     title: "Workspace Reports",
     desc: "Build dynamic table-based reports.",
     value: "1,000+",
+    link : "/power-ups/62d1ae596c260a5422c5bff1",
   },
   {
     id: 41,
@@ -355,6 +364,7 @@ let data = [
     title: "Dashcards",
     desc: "Turn any board into a dashboard and track work across Trello",
     value: "100,000+",
+    link : "/power-ups/6048e897c73d032a983e2a7c"
   },
   {
     id: 42,
@@ -362,6 +372,7 @@ let data = [
     title: "TeamGantt",
     desc: "View your cards in a beautiful timeline used by thousands of customers worldwide.",
     value: "100,000+",
+    link : "/power-ups/5970d4298c14fdf691c95a76"
   },
   {
     id: 43,
@@ -369,6 +380,7 @@ let data = [
     title: "Clockify Integration for Trello",
     desc: "Operate Clockify time tracker inside your Trello board.",
     value: "10,000+",
+    link : "/power-ups/610aa8f099715a7006149568",
   },
   {
     id: 44,
@@ -389,6 +401,7 @@ let data = [
     title: "Victor The Tech Lead",
     desc: "AI-powered Virtual Tech Lead built to help you and your team develop great projects.",
     value: "100+",
+    link : "/power-ups/6582ee797ae33c0e343509d5"
   },
   {
     id: 47,
@@ -424,6 +437,7 @@ let data = [
     title: "Wistia",
     desc: "The Wistia Trello Power-Up makes it easier and more delightful to manage and measure your videos.",
     value: "5,000+",
+    link : "/power-ups/wistia",
   },
 
 ];

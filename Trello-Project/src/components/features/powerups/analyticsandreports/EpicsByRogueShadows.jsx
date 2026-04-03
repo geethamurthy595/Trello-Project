@@ -163,7 +163,7 @@ const EpicsByRogueShadows = () => {
                                     </li>
                                 </ul>
                             ))}
-                        </div>
+                        </div>  
                     </div >
                     <div className='mt-15 '>
                         <div className="w-[560px] h-[400px] relative  rounded flex items-center justify-center  text-gray-400">

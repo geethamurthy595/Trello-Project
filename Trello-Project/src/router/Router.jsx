@@ -200,6 +200,7 @@ import AlertsByRung from "../components/features/powerups/analyticsandreports/Al
 import Harvest from "../components/features/powerups/analyticsandreports/Harvest.jsx";
 import ProductivityTemplates from "../components/features/templates/ProductivityTemplates.jsx";
 import InventionHub from "../components/features/powerups/analyticsandreports/InventionHub.jsx";
+
 import HabitTracker from "../components/features/powerups/analyticsandreports/HabitTracker.jsx";
 import TogglIntegration from "../components/features/powerups/analyticsandreports/TogglIntegration.jsx";
 import StandardDeviation from "../components/features/powerups/analyticsandreports/StandardDeviation.jsx";
@@ -218,6 +219,7 @@ import TimeTrackingForTrelloCards from "../components/features/powerups/analytic
 import AnyFields from "../components/features/powerups/analyticsandreports/Anyfeilds.jsx";
 import CrossBoardReportingAndDashboard from "../components/features/powerups/analyticsandreports/CrossBoardReportingAndDashboard.jsx";
 import BoardVisualizerForTrello from "../components/features/powerups/analyticsandreports/BoardVisualizerForTrello.jsx";
+import DailyUpdate from "../components/features/powerups/analyticsandreports/DailyUpdate.jsx";
 import ExpenseTrackello from "../components/features/powerups/analyticsandreports/ExpenseTrackello.jsx";
 import ReportsByBlueCat from "../components/features/powerups/analyticsandreports/ReportsByBlueCat.jsx";
 
@@ -355,6 +357,10 @@ let routes = createBrowserRouter([
     element : <TogglIntegration/>
   },
   {
+    path : "/power-ups/wistia",
+    element : <Wistia/>
+  },
+  {
     path: "/power-ups/exportsfortrello",
     element: <ExportsforTrello />
   },
@@ -381,6 +387,18 @@ let routes = createBrowserRouter([
   {
      path : "/power-ups/board-visualizer-for-trello",
      element : <BoardVisualizerForTrello/>
+  },
+  {
+    path : "/power-ups/610aa8f099715a7006149568",
+    element : <ClockifyIntegrationForTrello/>
+  },
+  {
+     path : "/power-ups/undo-for-trello",
+     element : <UndoForTrello/>
+  },
+  { 
+    path : "/power-ups/62d1ae596c260a5422c5bff1",
+    element : <WorkspaceReports/>
   },
   {
     path: "/teams/product",
