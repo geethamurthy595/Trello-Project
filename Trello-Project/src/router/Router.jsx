@@ -226,6 +226,7 @@ import Wistia from "../components/features/powerups/analyticsandreports/Wistia.j
 import ClockifyIntegrationForTrello  from "../components/features/powerups/analyticsandreports/ClockifyIntegrationForTrello.jsx";
 import UndoForTrello  from "../components/features/powerups/analyticsandreports/UndoForTrello.jsx";
 import WorkspaceReports  from "../components/features/powerups/analyticsandreports/WorkspaceReports.jsx";
+import TimeTrackingByTrackingTime  from "../components/features/powerups/analyticsandreports/TimeTrackingByTrackingTime.jsx";
 
 
 let routes = createBrowserRouter([
