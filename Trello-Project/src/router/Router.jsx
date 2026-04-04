@@ -228,7 +228,7 @@ import UndoForTrello  from "../components/features/powerups/analyticsandreports/
 import WorkspaceReports  from "../components/features/powerups/analyticsandreports/WorkspaceReports.jsx";
 import TimeTrackingByTrackingTime  from "../components/features/powerups/analyticsandreports/TimeTrackingByTrackingTime.jsx";
 import  VictorTheTechLead  from "../components/features/powerups/analyticsandreports/VictorTheTechLead.jsx";
-
+import EzyTaskAi from "../components/features/powerups/automation/EzyTaskAi.jsx";
 
 
 
