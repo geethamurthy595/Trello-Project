@@ -227,6 +227,7 @@ import ClockifyIntegrationForTrello  from "../components/features/powerups/analy
 import UndoForTrello  from "../components/features/powerups/analyticsandreports/UndoForTrello.jsx";
 import WorkspaceReports  from "../components/features/powerups/analyticsandreports/WorkspaceReports.jsx";
 import TimeTrackingByTrackingTime  from "../components/features/powerups/analyticsandreports/TimeTrackingByTrackingTime.jsx";
+import  VictorTheTechLead  from "../components/features/powerups/analyticsandreports/VictorTheTechLead.jsx";
 
 
 
@@ -1191,6 +1192,10 @@ let routes = createBrowserRouter([
        {
         path:'/power-ups/5f808abe91c1cc5574585240',
         element:<TimeTrackingByTrackingTime/>
+       },
+       {
+        path:'/power-ups/6582ee797ae33c0e343509d5',
+        element:<VictorTheTechLead/>
        }
 ]);
 
