@@ -72,9 +72,10 @@ import SmartFields from "../../../assets/PowerUpAutomation/SmartFields.svg";
 import Board2ExportbyEzyPowerUps from "../../../assets/PowerUpAutomation/Board2ExportbyEzyPowerUps.svg";
 import ProductivityPack from "../../../assets/PowerUpAutomation/ProductivityPack.jpg";
 import catList from "../../../assets/PowerUpAutomation/catList.jpg";
-
+import { useNavigate } from "react-router-dom";
 
 const PowerUpAutomation = () => {
+  const navigate = useNavigate();
 // Automation PowerUps data
 const trelloPowerUpsAutomation = [
   {
@@ -82,7 +83,8 @@ const trelloPowerUpsAutomation = [
     logo: Ezy_Task_AI,
     title: "Ezy Task AI",
     description: "Supercharge your projects with Ezy Task AI: Your AI-driven assistant for seamless task planning and execution",
-    users: "1,000+"
+    users: "1,000+",
+    link : "/power-ups/667b52773527a46d20a1dea5",
   },
   {
     Id: 2,
@@ -733,12 +735,12 @@ let handleAdd = (cardObj)=>{
       {
         trelloPowerUpsAutomation.map((cardObject, ind)=>{
           return(
-            <div key={cardObject.Id} className={automationCSS.cardCSS}>
+            <div key={cardObject.Id} className={automationCSS.cardCSS} onClick={() => cardObject.link && navigate(cardObject.link)} style={{ cursor: cardObject.link ? "pointer" : "default" }}>
               <div className={automationCSS.innerDivCSS}>
                {cardObject?.logo && ( <img src={cardObject?.logo} alt="logo" className="w-10" />)}
                 <h3 className='font-bold'>{cardObject?.title}</h3>
-              </div>
-              <button onClick={()=>{handleAdd(cardObject)}} className={automationCSS.addButtonCSS}>Add</button>
+              </div> 
+              <button onClick={(e)=>{ e.stopPropagation(); handleAdd(cardObject);}} className={automationCSS.addButtonCSS}>Add</button>
 
               <p className='text-[14px] leading-5'>{cardObject?.description.length > 100 ? cardObject?.description.slice(0,100) + ". . ." : cardObject?.description}</p>
               

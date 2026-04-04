@@ -354,6 +354,10 @@ let routes = createBrowserRouter([
     
   },
   {
+    path : "/power-ups/667b52773527a46d20a1dea5",
+    element : <EzyTaskAi/>,
+  },
+  {
         path : "/power-ups/sumup",
         element  : <Sumup/>
       },
@@ -409,6 +413,7 @@ let routes = createBrowserRouter([
     path : "/power-ups/62d1ae596c260a5422c5bff1",
     element : <WorkspaceReports/>
   },
+  
   {
     path: "/teams/product",
     element: <ProductManagement />,
