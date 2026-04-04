@@ -231,6 +231,9 @@ import WorkspaceReports from "../components/features/powerups/analyticsandreport
 import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx";
 import ClockifyIntegrationForTrello from "../components/features/powerups/analyticsandreports/ClockifyIntegrationForTrello.jsx";
 import Wistia from "../components/features/powerups/analyticsandreports/Wistia.jsx";
+import EzyTaskAi from "../components/features/powerups/automation/EzyTaskAi.jsx";
+
+
 
 
 
@@ -356,6 +359,10 @@ let routes = createBrowserRouter([
     
   },
   {
+    path : "/power-ups/667b52773527a46d20a1dea5",
+    element : <EzyTaskAi/>,
+  },
+  {
         path : "/power-ups/sumup",
         element  : <Sumup/>
       },
@@ -411,6 +418,7 @@ let routes = createBrowserRouter([
     path : "/power-ups/62d1ae596c260a5422c5bff1",
     element : <WorkspaceReports/>
   },
+  
   {
     path: "/teams/product",
     element: <ProductManagement />,
