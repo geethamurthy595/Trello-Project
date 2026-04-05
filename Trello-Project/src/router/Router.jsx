@@ -231,6 +231,7 @@ import WorkspaceReports from "../components/features/powerups/analyticsandreport
 import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx";
 import ClockifyIntegrationForTrello from "../components/features/powerups/analyticsandreports/ClockifyIntegrationForTrello.jsx";
 import Wistia from "../components/features/powerups/analyticsandreports/Wistia.jsx";
+import Bluecat from "../components/features/powerups/analyticsandreports/Bluecat.jsx";
 
 
 
@@ -1210,6 +1211,10 @@ let routes = createBrowserRouter([
       {
         path:"/power-ups/69314b6c5f37ae1295d8eebc",
         element:<Cardview/>,
+      },
+       {
+        path:"/power-ups/5b4765f383dd7c75d8e57be4/time-in-list-by-blue-cat",
+        element:<Bluecat/>,
       },
 ]);
 
