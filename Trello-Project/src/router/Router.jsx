@@ -230,6 +230,10 @@ import TimeTrackingByTrackingTime  from "../components/features/powerups/analyti
 import  VictorTheTechLead  from "../components/features/powerups/analyticsandreports/VictorTheTechLead.jsx";
 import EzyTaskAi from "../components/features/powerups/automation/EzyTaskAi.jsx";
 import Bluecat from "../components/features/powerups/analyticsandreports/Bluecat.jsx";
+import Pivot from "../components/features/powerups/analyticsandreports/Pivot.jsx"
+import TrelloTimeTracking from "../components/features/powerups/analyticsandreports/TrelloTimeTracking.jsx"
+import TeamGrantt from "../components/features/powerups/analyticsandreports/TeamGrantt.jsx"
+import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx"
 
 
 
