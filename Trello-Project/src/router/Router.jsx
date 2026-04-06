@@ -221,16 +221,14 @@ import CrossBoardReportingAndDashboard from "../components/features/powerups/ana
 import BoardVisualizerForTrello from "../components/features/powerups/analyticsandreports/BoardVisualizerForTrello.jsx";
 import DailyUpdate from "../components/features/powerups/analyticsandreports/DailyUpdate.jsx";
 import ExpenseTrackello from "../components/features/powerups/analyticsandreports/ExpenseTrackello.jsx";
-import UndoForTrello from "../components/features/powerups/analyticsandreports/UndoForTrello.jsx";
-import WalletIncomeAndExpences from "../components/features/powerups/analyticsandreports/WalletIncomeAndExpences.jsx";
-import Pivot from "../components/features/powerups/analyticsandreports/Pivot.jsx";
-import TrelloTimeTracking from "../components/features/powerups/analyticsandreports/TrelloTimeTracking.jsx";
-import TeamCard from "../components/solutions/seeAllUseCases/meetings/remoteteamMeetings/Teamcard.jsx";
-import TeamGrantt from "../components/features/powerups/analyticsandreports/TeamGrantt.jsx";
-import WorkspaceReports from "../components/features/powerups/analyticsandreports/WorkspaceReports.jsx";
-import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx";
-import ClockifyIntegrationForTrello from "../components/features/powerups/analyticsandreports/ClockifyIntegrationForTrello.jsx";
+import ReportsByBlueCat from "../components/features/powerups/analyticsandreports/ReportsByBlueCat.jsx";
 import Wistia from "../components/features/powerups/analyticsandreports/Wistia.jsx";
+import ClockifyIntegrationForTrello  from "../components/features/powerups/analyticsandreports/ClockifyIntegrationForTrello.jsx";
+import UndoForTrello  from "../components/features/powerups/analyticsandreports/UndoForTrello.jsx";
+import WorkspaceReports  from "../components/features/powerups/analyticsandreports/WorkspaceReports.jsx";
+import TimeTrackingByTrackingTime  from "../components/features/powerups/analyticsandreports/TimeTrackingByTrackingTime.jsx";
+import  VictorTheTechLead  from "../components/features/powerups/analyticsandreports/VictorTheTechLead.jsx";
+import EzyTaskAi from "../components/features/powerups/automation/EzyTaskAi.jsx";
 
 
 
@@ -356,6 +354,10 @@ let routes = createBrowserRouter([
     
   },
   {
+    path : "/power-ups/667b52773527a46d20a1dea5",
+    element : <EzyTaskAi/>,
+  },
+  {
         path : "/power-ups/sumup",
         element  : <Sumup/>
       },
@@ -411,6 +413,7 @@ let routes = createBrowserRouter([
     path : "/power-ups/62d1ae596c260a5422c5bff1",
     element : <WorkspaceReports/>
   },
+  
   {
     path: "/teams/product",
     element: <ProductManagement />,
@@ -1188,29 +1191,17 @@ let routes = createBrowserRouter([
         element:<AlertsByRung/>
        },
        {
-        path : "/power-ups/5d5b3b96fe9c9f88bc7bd311",
-       element: <DailyUpdate/>
+          path:'/power-ups/5d9c90aa18965066fcd44730',
+          element:<ReportsByBlueCat/>
        },
        {
-        path:'/power-ups/6869fbd7d81cdf00f27b4f61',
-        element:<WalletIncomeAndExpences/>
+        path:'/power-ups/5f808abe91c1cc5574585240',
+        element:<TimeTrackingByTrackingTime/>
        },
        {
-        path:"/power-ups/5d84733c6fd69f69b3d8ce95",
-        element: <Pivot/>,
-      },
-      {
-        path : "/power-ups/615d5b18dd889573e477dcdc",
-        element: <TrelloTimeTracking/>
-      },
-      {
-        path : "/power-ups/5970d4298c14fdf691c95a76",
-        element: <TeamGrantt/>
-      },
-      {
-        path:"/power-ups/69314b6c5f37ae1295d8eebc",
-        element:<Cardview/>,
-      },
+        path:'/power-ups/6582ee797ae33c0e343509d5',
+        element:<VictorTheTechLead/>
+       }
 ]);
 
 export default routes;
