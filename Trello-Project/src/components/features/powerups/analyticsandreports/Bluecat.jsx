@@ -390,10 +390,9 @@ const Bluecat = () => {
             
             </div>
             </div>
-=======
   {/* Top Info */}
   <p className="text-sm font-medium">
-    One of the{" "}
+
     <span className="text-blue-600 underline cursor-pointer font-semibold">
       fastest growing power-ups of 2023
     </span>
