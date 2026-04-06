@@ -229,6 +229,7 @@ import WorkspaceReports  from "../components/features/powerups/analyticsandrepor
 import TimeTrackingByTrackingTime  from "../components/features/powerups/analyticsandreports/TimeTrackingByTrackingTime.jsx";
 import  VictorTheTechLead  from "../components/features/powerups/analyticsandreports/VictorTheTechLead.jsx";
 import EzyTaskAi from "../components/features/powerups/automation/EzyTaskAi.jsx";
+import Bluecat from "../components/features/powerups/analyticsandreports/Bluecat.jsx";
 
 
 
@@ -1201,7 +1202,27 @@ let routes = createBrowserRouter([
        {
         path:'/power-ups/6582ee797ae33c0e343509d5',
         element:<VictorTheTechLead/>
-       }
+       },
+       {
+        path:"/power-ups/5d84733c6fd69f69b3d8ce95",
+        element: <Pivot/>,
+      },
+      {
+        path : "/power-ups/615d5b18dd889573e477dcdc",
+        element: <TrelloTimeTracking/>
+      },
+      {
+        path : "/power-ups/5970d4298c14fdf691c95a76",
+        element: <TeamGrantt/>
+      },
+      {
+        path:"/power-ups/69314b6c5f37ae1295d8eebc",
+        element:<Cardview/>,
+      },
+       {
+        path:"/power-ups/5b4765f383dd7c75d8e57be4/time-in-list-by-blue-cat",
+        element:<Bluecat/>,
+      },
 ]);
 
 export default routes;
