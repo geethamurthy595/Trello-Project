@@ -349,6 +349,7 @@ let data = [
     title: "Time in List by Blue Cat",
     desc: "Time in List shows how long cards have been in their current list and how long they spent in all lists they touched.",
     value: "50,000+",
+    link:"/power-ups/5b4765f383dd7c75d8e57be4/time-in-list-by-blue-cat",
   },
   {
     id: 40,
