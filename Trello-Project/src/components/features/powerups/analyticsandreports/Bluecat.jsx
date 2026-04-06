@@ -670,7 +670,7 @@ const Bluecat = () => {
 
 </div>
 </div>
->>>>>>> bluecat
+
 
 
             </div>
