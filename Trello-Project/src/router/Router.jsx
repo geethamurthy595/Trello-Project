@@ -236,6 +236,7 @@ import TeamGrantt from "../components/features/powerups/analyticsandreports/Team
 import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx"
 import Critical from "../components/features/powerups/analyticsandreports/Critical.jsx";
 
+import Translator from "../components/features/powerups/automation/Translator.jsx";
 
 
 
@@ -1208,6 +1209,10 @@ let routes = createBrowserRouter([
        {
         path:'/power-ups/6582ee797ae33c0e343509d5',
         element:<VictorTheTechLead/>
+       },
+       {
+        path :"/power-ups/66061d99634c57e025d1cf26",
+        element:<Translator/>
        },
        {
         path:"/power-ups/5d84733c6fd69f69b3d8ce95",
