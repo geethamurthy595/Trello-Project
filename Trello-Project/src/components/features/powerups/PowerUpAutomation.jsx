@@ -91,7 +91,8 @@ const trelloPowerUpsAutomation = [
     logo: Translator,
     title: "Translator",
     description: "Translating Trello boards made easier",
-    users: "1,000+"
+    users: "1,000+",
+    link : "/power-ups/66061d99634c57e025d1cf26"
   },
   {
     Id: 3,

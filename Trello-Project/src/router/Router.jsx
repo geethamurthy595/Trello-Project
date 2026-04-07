@@ -229,6 +229,7 @@ import WorkspaceReports  from "../components/features/powerups/analyticsandrepor
 import TimeTrackingByTrackingTime  from "../components/features/powerups/analyticsandreports/TimeTrackingByTrackingTime.jsx";
 import  VictorTheTechLead  from "../components/features/powerups/analyticsandreports/VictorTheTechLead.jsx";
 import EzyTaskAi from "../components/features/powerups/automation/EzyTaskAi.jsx";
+import Translator from "../components/features/powerups/automation/Translator.jsx";
 
 
 
@@ -1201,6 +1202,10 @@ let routes = createBrowserRouter([
        {
         path:'/power-ups/6582ee797ae33c0e343509d5',
         element:<VictorTheTechLead/>
+       },
+       {
+        path :"/power-ups/66061d99634c57e025d1cf26",
+        element:<Translator/>
        }
 ]);
 
