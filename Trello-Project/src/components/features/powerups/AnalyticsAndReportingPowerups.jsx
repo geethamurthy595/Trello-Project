@@ -388,6 +388,7 @@ let data = [
     title: "Critical Value Calculator",
     desc: "Calculates T, Z, F, CHI square and R values.",
     value: "100+",
+    link:"/power-ups/63c79210ca89240113a7065e",
   },
   {
     id: 45,
