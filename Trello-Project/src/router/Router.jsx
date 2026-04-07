@@ -234,6 +234,7 @@ import Pivot from "../components/features/powerups/analyticsandreports/Pivot.jsx
 import TrelloTimeTracking from "../components/features/powerups/analyticsandreports/TrelloTimeTracking.jsx"
 import TeamGrantt from "../components/features/powerups/analyticsandreports/TeamGrantt.jsx"
 import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx"
+import GoogleCalendersync1 from "../components/features/powerups/automation/GoogleCalendersync1.jsx";
 
 
 
@@ -1227,6 +1228,10 @@ let routes = createBrowserRouter([
         path:"/power-ups/5b4765f383dd7c75d8e57be4/time-in-list-by-blue-cat",
         element:<Bluecat/>,
       },
+      {
+        path:'/power-ups/64b4401f579fae7ab70c0314',
+        element:<GoogleCalendersync1/>
+      }
 ]);
 
 export default routes;

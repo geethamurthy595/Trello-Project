@@ -133,7 +133,8 @@ const trelloPowerUpsAutomation = [
     logo: Google_Calendar_Sync ,
     title: "Google Calendar Sync",
     description: "Sync your Trello boards and cards with dates to Google Calendar",
-    users: "25,000+"
+    users: "25,000+",
+    link:'/power-ups/64b4401f579fae7ab70c0314'
   },
   {
     Id: 9,
