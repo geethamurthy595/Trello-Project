@@ -433,6 +433,7 @@ let data = [
     title: "Data Highlighter",
     desc: "Turn your Trello cards into easy, precise, highlighted data in seconds.",
     value: "1,000+",
+    link:"/power-ups/616e5840978fc41ab7ad87a0",
   },
   {
     id: 51,

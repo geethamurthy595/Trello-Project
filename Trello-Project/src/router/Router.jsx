@@ -235,6 +235,7 @@ import TrelloTimeTracking from "../components/features/powerups/analyticsandrepo
 import TeamGrantt from "../components/features/powerups/analyticsandreports/TeamGrantt.jsx"
 import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx"
 import Critical from "../components/features/powerups/analyticsandreports/Critical.jsx";
+import Datahighlighter from "../components/features/powerups/analyticsandreports/Datahighlighter.jsx";
 
 
 
@@ -1232,6 +1233,10 @@ let routes = createBrowserRouter([
       {
         path:"/power-ups/63c79210ca89240113a7065e",
         element:<Critical/>,
+      },
+      {
+        path:"/power-ups/616e5840978fc41ab7ad87a0",
+        element:<Datahighlighter/>
       },
 ]);
 
