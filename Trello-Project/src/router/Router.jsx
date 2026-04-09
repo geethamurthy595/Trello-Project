@@ -229,6 +229,7 @@ import TeamCard from "../components/solutions/seeAllUseCases/meetings/remoteteam
 import TeamGrantt from "../components/features/powerups/analyticsandreports/TeamGrantt.jsx";
 import WorkspaceReports from "../components/features/powerups/analyticsandreports/WorkspaceReports.jsx";
 import Cardview from "../components/features/powerups/analyticsandreports/Cardview.jsx";
+import CrossBoardExport from "../components/features/powerups/analyticsandreports/CrossBoardExport.jsx";
 
 
 
@@ -1201,6 +1202,10 @@ let routes = createBrowserRouter([
         path:"/power-ups/69314b6c5f37ae1295d8eebc",
         element:<Cardview/>,
       },
+      {
+        path: "/power-ups/669b7e5081e3be09d5c86646",
+        element: <CrossBoardExport/>
+      }
 ]);
 
 export default routes;

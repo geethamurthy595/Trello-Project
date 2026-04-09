@@ -412,6 +412,7 @@ let data = [
     title: "Cross-Board Export: CSV, JSON, XLSX, Google Sheets",
     desc: "Export across multiple boards with one installation.",
     value: "1,000+",
+    link : "/power-ups/669b7e5081e3be09d5c86646"
   },
 
   {
