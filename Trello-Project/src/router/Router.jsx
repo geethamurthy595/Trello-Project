@@ -237,6 +237,7 @@ import Cardview from "../components/features/powerups/analyticsandreports/Cardvi
 import Critical from "../components/features/powerups/analyticsandreports/Critical.jsx";
 
 import Translator from "../components/features/powerups/automation/Translator.jsx";
+import CrossBoardExport from "../components/features/powerups/analyticsandreports/CrossBoardExport.jsx";
 
 
 
@@ -1229,6 +1230,10 @@ let routes = createBrowserRouter([
       {
         path:"/power-ups/69314b6c5f37ae1295d8eebc",
         element:<Cardview/>,
+      },
+      {
+        path: "/power-ups/669b7e5081e3be09d5c86646",
+        element: <CrossBoardExport/>
       },
        {
         path:"/power-ups/5b4765f383dd7c75d8e57be4/time-in-list-by-blue-cat",
