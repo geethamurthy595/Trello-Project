@@ -238,6 +238,7 @@ import Critical from "../components/features/powerups/analyticsandreports/Critic
 
 import Translator from "../components/features/powerups/automation/Translator.jsx";
 import CrossBoardExport from "../components/features/powerups/analyticsandreports/CrossBoardExport.jsx";
+import GoogleFormsSync from "../components/features/powerups/automation/GoogleFormsSync.jsx";
 
 
 
@@ -365,6 +366,10 @@ let routes = createBrowserRouter([
   {
     path : "/power-ups/667b52773527a46d20a1dea5",
     element : <EzyTaskAi/>,
+  },
+  {
+     path : "/power-ups/65c425d7ddcf0bca2d2051e5",
+     element : <GoogleFormsSync/>,
   },
   {
         path : "/power-ups/sumup",

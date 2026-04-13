@@ -99,7 +99,8 @@ const trelloPowerUpsAutomation = [
     logo: Google_Forms_Sync,
     title: "Google Forms Sync",
     description: "Connect your Trello boards to your Google Forms and automatically add cards to your boards as soon as new responses are submitted.",
-    users: "5,000+"
+    users: "5,000+",
+    link : "/power-ups/65c425d7ddcf0bca2d2051e5",
   },
   {
     Id: 4,
